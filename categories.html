@@ -11,7 +11,7 @@ first }}{% endcapture %}
 </h2>
 <article class="category-items">
   {% for post in site.categories[category_name] %}
-  <a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a>
+  <a href="{{ post.url | relative_url }}">{{post.title}}</a>
   {% endfor %}
 </article>
 {% endfor %}

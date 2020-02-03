@@ -19,7 +19,9 @@
   <h6>Categories</h6>
   {% for category in site.categories %} {% capture category_name %}{{ category |
   first }}{% endcapture %}
-  <a href="{{ site.baseurl }}/categories/#{{category_name | slugize}}">
+  <a
+    href="{{ site.baseurl | relative_url }}/categories/#{{category_name | slugize}}"
+  >
     {{ category | first | capitalize }}{% unless forloop.last %}{% endunless
     %}</a
   >
