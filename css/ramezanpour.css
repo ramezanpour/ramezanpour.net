@@ -1,0 +1,86 @@
+@import "github.css";
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+article h1 a {
+  color: #000;
+}
+
+h1 a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.content p,
+.content .category-items {
+  font-size: 19px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.content code {
+  font-size: 16px;
+}
+
+article footer {
+  color: #777;
+}
+
+.container {
+  margin: 40px auto;
+}
+
+.sidebar {
+  padding: 0px 5px;
+  text-align: right;
+}
+
+.sidebar .avatar {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.sidebar h6 {
+  display: block;
+  margin-top: 10px;
+}
+
+.sidebar small {
+  color: #777;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.sidebar section {
+  margin-bottom: 20px;
+}
+
+.sidebar section h6 {
+  font-weight: bold;
+}
+
+.sidebar section a {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.category-items {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+footer.main-footer {
+  text-align: center;
+  border-top: 1px solid whitesmoke;
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #777;
+}
