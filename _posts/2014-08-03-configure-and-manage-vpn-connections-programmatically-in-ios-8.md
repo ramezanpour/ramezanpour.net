@@ -2,7 +2,7 @@
 title: Configure and manage VPN connections programmatically in iOS 8
 categories: iOS
 layout: post
-date: 2014-08-03 00:00:00 +0330
+date: 2014-08-03 14:00:00 +0330
 ---
 
 Connecting to VPN servers programmatically had been always an impossible task to do for developers because of Apple’s limitations.
