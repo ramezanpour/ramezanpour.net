@@ -84,3 +84,9 @@ footer.main-footer {
   padding-top: 20px;
   color: #777;
 }
+
+.home .post {
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
