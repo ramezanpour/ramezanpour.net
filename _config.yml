@@ -24,7 +24,7 @@ description: >-
   Software developer since 2002, husband since 2012, and father since 2017. 
   Also a bookworm, math lover, physics enthusiast.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ramezanpour.net" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-feed
