@@ -14,6 +14,6 @@ As I totally drowned in the Linux Shell, I felt in love with [Shell scripting](h
 
 My preferred text editors of choice are VSCode and vim. I use VSCode because vim doesn't support Persian language as good as VSCode does. I have also published [my .vimrc and some other configuration files](https://github.com/ramezanpour/dotfiles) on GitHub.
 
-This blog is supposed to be my dairy. Whenever I learn a new thing, I will publish it here. It also worths noting that all of the opinions on this blog is my own.
+This blog is supposed to be my dairy. Whenever I learn a new thing, I will publish it here. It also worths noting that all of opinions here are my own.
 
 Last but not least, this blog is proudly powered by [Jekyll](https://jekyllrb.com/).
