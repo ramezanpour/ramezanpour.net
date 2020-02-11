@@ -1,6 +1,6 @@
 ---
 title: Configure and manage VPN connections programmatically in iOS 8
-categories: iOS
+categories: iOS programming
 layout: post
 date: 2014-08-03 14:00:00 +0330
 ---
