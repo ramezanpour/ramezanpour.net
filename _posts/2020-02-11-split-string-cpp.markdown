@@ -20,7 +20,7 @@ result = s.split(' ')
 
 ```cs
 var str = "Hello world";
-result = s.Split([' ']);
+result = str.Split([' ']);
 
 // Result is ['Hello', 'world']
 ```
