@@ -96,3 +96,10 @@ footer.main-footer {
   margin-bottom: 30px;
   padding-bottom: 10px;
 }
+
+blockquote {
+  padding-left: 7px;
+  border-left: 3px solid #777;
+  font-style: italic;
+  color: #777;
+}
