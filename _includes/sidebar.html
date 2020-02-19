@@ -1,29 +1,28 @@
 <section>
-  <img
-    src="https://www.gravatar.com/avatar/2ea74e0eab928803eddd8b3d2a90b995?s=128"
-    class="avatar"
-  />
-  <h6>{{site.title}}</h6>
-  <small>{{site.description}}</small>
+    <img class="avatar" src="https://www.gravatar.com/avatar/2ea74e0eab928803eddd8b3d2a90b995?s=128"/>
+    <h6>{{site.title}}</h6>
+    <small>{{site.description}}</small>
 </section>
 
-<section>
-  <h6>Main Menu</h6>
-  <a href="{% link index.html %}">Home</a>
-  <a href="{% link about.markdown %}">About</a>
-  <a href="{% link contact.markdown %}">Contact</a>
-  <a href="{% link feed.xml %}">RSS</a>
+<section class="main-menu-section">
+    <h6>Main Menu</h6>
+    <a href="{% link index.html %}">Home</a>
+    <a href="{% link about.markdown %}">About</a>
+    <a href="{% link contact.markdown %}">Contact</a>
+    <a href="{% link feed.xml %}">RSS</a>
 </section>
 
-<section>
-  <h6>Categories</h6>
-  {% for category in site.categories %} {% capture category_name %}{{ category |
-  first }}{% endcapture %}
-  <a
-    href="{{ site.baseurl | relative_url }}/categories/#{{category_name | slugize}}"
-  >
-    {{ category | first | capitalize }}{% unless forloop.last %}{% endunless
-    %}</a
-  >
-  {% endfor %}
+<section class="category-section">
+    <h6>Categories</h6>
+    {% for category in site.categories %}
+        {% capture category_name %}
+            {{ category |
+  first }}
+        {% endcapture %}
+        <a href="{{ site.baseurl | relative_url }}/categories/#{{category_name | slugize}}">
+            {{ category | first | capitalize }}
+            {% unless forloop.last %}{% endunless
+    %}
+        </a>
+    {% endfor %}
 </section>
