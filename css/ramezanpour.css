@@ -25,6 +25,7 @@ h1 {
 .content .category-items {
   font-size: 19px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
 }
 
 .content img {
