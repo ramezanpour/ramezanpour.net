@@ -28,3 +28,5 @@ When using Vim, I use the [evening theme](http://vimcolors.com/308/evening/dark)
 In general, I prefer light over dark when browsing the web. However, I turn on dark mode for certain websites such as Github. Some websites already have the dark-mode switch but most of then don't. To solve this, you can use one of many browser extensions to help you turn the lights off. The extension I use is [Darkreader](https://darkreader.org/){:target="blank"}. It is very simple and cross browser.
 
 ![Darkreader browser extension](/assets/images/darkreader_screenshot.jpg)
+
+Update 1 (Mar. 1st 2020): It seems Ubuntu 20.04 will have the dark mode settings as well. [More info](https://www.omgubuntu.co.uk/2020/02/dark-mode-setting-ubuntu-focal-fossa){:target="blank"}
