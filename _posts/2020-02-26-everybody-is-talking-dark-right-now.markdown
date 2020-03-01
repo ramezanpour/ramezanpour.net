@@ -29,4 +29,4 @@ In general, I prefer light over dark when browsing the web. However, I turn on d
 
 ![Darkreader browser extension](/assets/images/darkreader_screenshot.jpg)
 
-Update 1 (Mar. 1st 2020): It seems Ubuntu 20.04 will have the dark mode settings as well. [More info](https://www.omgubuntu.co.uk/2020/02/dark-mode-setting-ubuntu-focal-fossa){:target="blank"}
+**Update 1 (Mar. 1st 2020):** It seems Ubuntu 20.04 will have the dark mode settings as well. [More info](https://www.omgubuntu.co.uk/2020/02/dark-mode-setting-ubuntu-focal-fossa){:target="blank"}
