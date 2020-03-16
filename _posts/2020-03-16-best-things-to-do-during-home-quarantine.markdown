@@ -26,6 +26,7 @@ Beside books, you can also try apps like [Pocket](https://getpocket.com/) and [F
 ### Help your family
 
 ![Photo by Louis Hansel @shotsoflouis on Unsplash](/assets/images/help_family_washing_fruits.jpg)
+
 It's not bad to wash the dishes or helping your wife or mom with chores. Even if you work remotely these days, you have at least two hours more (because you don't commute); as a result, it's now time to help you family. You may have some postponed tasks from a long time ago. These days are the best time to get them done.
 
 As my friends know, I love cooking. Since the last week, I help my wife prepare the meals as well. sometimes, I prepare the meal myself. It's really enjoyable.
