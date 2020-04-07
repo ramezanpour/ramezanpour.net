@@ -5,11 +5,11 @@ date: 2020-04-05 14:20
 categories: programming
 ---
 
-When I started programming on a GUI-based environment, the only fixed-width font available was `Courier` and `Courier New`. We actually didn't have lot of options to choose from. You may laugh at me but after 2 years of programming, I realized I can change the font size of Visual Studio IDE. In 2007, Microsoft introduced another moonscape font named `Consolas`. The font was much better and had better support anti-aliasing.
+When I started programming on a GUI-based environment, the only fixed-width fonts available were `Courier` and `Courier New`. We actually didn't have lots of options to choose from. You may laugh at me but after 2 years of programming, I realized I can change the font size of Visual Studio IDE. In 2007, Microsoft introduced another moonscape font named `Consolas`. The font was much better and had better support anti-aliasing.
 
 ![DejaVu Sans Mono](/assets/images/dejavu_sans_mono_font_preview.png){:class="f-right"}
 
-After moving to Linux in 2012, I got familiar with some other fonts. After trying out plenty of them, I found `DejaVu Sans` font family. `DejaVu Sans Mono` is one of the fonts I still love even after 6-7 years of working with it. I have temporarily switched to other fonts but got back to it after a short period of time.
+After moving to Linux in 2012, I got familiar with some other fonts. After trying out plenty of them, I found `DejaVu Sans` font family. `DejaVu Sans Mono` is one of the fonts I still love even after 6-7 years using it. I have temporarily switched to other fonts but got back to it after a short period of time.
 
 Since we cannot leave the house as we usually did during the Coronavirus pandemic, I decided to play around with tools and apps I use the most and try out new things. As a result, I decided to search a little bit to see if I can find a replacement for the legendary `DejaVu` and actually found a fully-deserved one!
 
