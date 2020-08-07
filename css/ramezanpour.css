@@ -121,6 +121,10 @@ article footer {
   margin-bottom: 20px;
 }
 
+.category-items a {
+  display: block;
+}
+
 footer.main-footer {
   text-align: center;
   border-top: 1px solid whitesmoke;
