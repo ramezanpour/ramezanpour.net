@@ -106,6 +106,10 @@ article footer {
     display: none;
   }
 
+  .sidebar .social-section {
+    display: none;
+  }
+
   .sidebar .main-menu-section h6 {
     display: none;
   }
