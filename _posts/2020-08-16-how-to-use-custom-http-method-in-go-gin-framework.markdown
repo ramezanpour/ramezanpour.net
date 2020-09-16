@@ -2,7 +2,7 @@
 title: How to use custom HTTP methods in Go Gin framework
 date: 2020-08-16 12:00
 layout: post
-categories: golang programming
+categories: golang programming gin
 ---
 
 The [Gin framework](https://gin-gonic.com/){:target="blank"} is probably the most popular Go framework for creating RESTful APIs. It lets you create a web app in a matter of minutes.
@@ -17,21 +17,21 @@ Here is an example of a very simple web API using Gin:
 package main
 
 import (
-	"net/http"
+ "net/http"
 
-	"github.com/gin-gonic/gin"
+ "github.com/gin-gonic/gin"
 )
 
 func main() {
-	router := gin.Default()
-	router.GET("/hello", sayHello)
-	router.Run(":3000")
+ router := gin.Default()
+ router.GET("/hello", sayHello)
+ router.Run(":3000")
 }
 
 func sayHello(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{
-		"message": "Hello!!",
-	})
+ c.JSON(http.StatusOK, gin.H{
+  "message": "Hello!!",
+ })
 }
 ```
 
@@ -41,26 +41,26 @@ But what if you want to use some custom HTTP methods? In this case Gin provides 
 package main
 
 import (
-	"net/http"
+ "net/http"
 
-	"github.com/gin-gonic/gin"
+ "github.com/gin-gonic/gin"
 )
 
 func main() {
-	router := gin.Default()
-	router.GET("/hello", sayHello)
-	router.Handle("LIST", "/get", getList)
-	router.Run(":3000")
+ router := gin.Default()
+ router.GET("/hello", sayHello)
+ router.Handle("LIST", "/get", getList)
+ router.Run(":3000")
 }
 
 func sayHello(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{
-		"message": "Hello!!",
-	})
+ c.JSON(http.StatusOK, gin.H{
+  "message": "Hello!!",
+ })
 }
 
 func getList(c *gin.Context) {
-	// Gets the list of all categories
+ // Gets the list of all categories
 }
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: How to enable CORS support in Gin
 date: 2020-08-23 00:00
-categories: programming golang
+categories: programming golang gin
 ---
 It's about 3 months that I'm trying to do some real work in Go and my HTTP framework of choice is [Gin](https://gin-gonic.com/){:target="blank"}.
 
@@ -38,7 +38,7 @@ You may create a middleware yourself to enable CORS support; but, we don't want 
 To install it:
 
 ```bash
-$ go get github.com/gin-contrib/cors
+go get github.com/gin-contrib/cors
 ```
 
 After installed, simply import it:
@@ -53,31 +53,31 @@ And start using it:
 package main
 
 import (
-	"time"
+ "time"
 
-	"github.com/gin-contrib/cors"
-	"github.com/gin-gonic/gin"
+ "github.com/gin-contrib/cors"
+ "github.com/gin-gonic/gin"
 )
 
 func main() {
-	router := gin.Default()
-	// CORS for https://foo.com and https://github.com origins, allowing:
-	// - PUT and PATCH methods
-	// - Origin header
-	// - Credentials share
-	// - Preflight requests cached for 12 hours
-	router.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"https://foo.com"},
-		AllowMethods:     []string{"PUT", "PATCH"},
-		AllowHeaders:     []string{"Origin"},
-		ExposeHeaders:    []string{"Content-Length"},
-		AllowCredentials: true,
-		AllowOriginFunc: func(origin string) bool {
-			return origin == "https://github.com"
-		},
-		MaxAge: 12 * time.Hour,
-	}))
-	router.Run()
+ router := gin.Default()
+ // CORS for https://foo.com and https://github.com origins, allowing:
+ // - PUT and PATCH methods
+ // - Origin header
+ // - Credentials share
+ // - Preflight requests cached for 12 hours
+ router.Use(cors.New(cors.Config{
+  AllowOrigins:     []string{"https://foo.com"},
+  AllowMethods:     []string{"PUT", "PATCH"},
+  AllowHeaders:     []string{"Origin"},
+  ExposeHeaders:    []string{"Content-Length"},
+  AllowCredentials: true,
+  AllowOriginFunc: func(origin string) bool {
+   return origin == "https://github.com"
+  },
+  MaxAge: 12 * time.Hour,
+ }))
+ router.Run()
 }
 ```
 
