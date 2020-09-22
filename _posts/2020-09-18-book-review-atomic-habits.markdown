@@ -78,7 +78,7 @@ Change the environment to make good habits more obvious and bad ones invisible. 
 
 ### Stage 2: Make it attractive
 
-    One key point for building a new habit is that you should keep that very attractive all the time. If a new habit gets boring you will stop doing that. Scientifically, you should keep you dopamine level as high as possible so your brain enjoy the process doing that habit. Here are some techniques:
+One key point for building a new habit is that you should keep that very attractive all the time. If a new habit gets boring you will stop doing that. Scientifically, you should keep you dopamine level as high as possible so your brain enjoy the process doing that habit. Here are some techniques:
 
 #### Packing habits
 
