@@ -5,11 +5,11 @@ categories: productivity
 date: 2020-10-04 15:00
 ---
 
-About a month ago, I finished the [Cal Newport](https://www.calnewport.com/){:target="blank"}'s valuable book "Digital Minimalism" and it's actually changing my lifestyle! This book is a MUST read for everyone who is using the social media and entertainment online services such as Netflix not just because of the materials and contents they provide but because of the most precious thing we have in this world; our life time! I will definitely go for a full review of this book in future. For now, I just wanted to share my own experience about the process.
+About a month ago, I finished the [Cal Newport](https://www.calnewport.com/){:target="blank"}'s valuable book "Digital Minimalism" and it's actually changing my lifestyle! This book is a MUST read for everyone who is using the social media and entertainment online services such not just because of the materials and contents they provide but because after reading it I realized that we are waisting the most precious thing we have like never before; our life time! I will definitely go for a full review of this book in future. For now, I just wanted to share my own experience about the process.
 
 ## Declutter process
 
-The book offers you to quit all **optional** digital services for one month which includes social media, entertainment online services, news websites, and video games (if you're addicted to it). The word optional is crucial here. For example, you may need to check your email every day because of your job and it's OK. Or maybe you need to continue using Slack because there are some important messages that you need to take care of and that's completely OK. But when I thought about my own life, I realized that there are just two services that can be considered indispensable: Email, and Whatsapp.  
+The book offers you to quit all **optional** digital services for one month which includes social media, entertainment online services, news websites, and video games (if you're addicted to it). The word optional is crucial here. For example, you may need to check your email every day because of your job and it's OK. Or maybe you need to continue using Slack because there are some important messages that you need to take care of and that's completely OK. But when I thought about my own life, I realized that there are just two services that can be considered indispensable: Email, and Whatsapp.
 
 So I uninstalled all others:
 
