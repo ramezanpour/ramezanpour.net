@@ -35,8 +35,8 @@ Because of sanctions, Iranian developers are unable to access cloud services suc
 
 Nearly all developer services and tools are blocked for Iranians; therefore, developers must change their IP addresses by using a VPN or proxy to be able to access them. For example, Android developers cannot download Android Studio and its modules without using a VPN! This applies to Docker and Golang packages as well! Iranian developers must again use a bypassing tool to be able to access all of mentioned resources. It's also worth mentioning that using a VPN in Iran is considered a crime.
 
-This limitations are not just applied to software industry. Designers of all kinds are victims too! For instance, Adobe Creative Cloud along with services like Behance and Dribbble are blocked for Iranian graphic designers.
+These limitations are not just applied to software industry. Designers of all kinds are victims too! For instance, Adobe Creative Cloud along with services like Behance and Dribbble are blocked for Iranian graphic designers.
 
-These restrictions were in place for years but have intensified during Trump administration. They always tell the news that they are sanctioning the Iranian government but the truth is that people are the only ones that are hit.
+As a matter of fact, restrictions were in place for years but have intensified during Trump administration. They always tell the news that they are sanctioning the Iranian government but the truth is that people are the only ones that are hit.
 
 I would to ask you to take a moment and think about it. Just imagine one day you wake up and you cannot access these resources. What would you do?
