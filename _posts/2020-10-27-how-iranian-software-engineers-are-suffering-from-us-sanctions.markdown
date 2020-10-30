@@ -1,7 +1,7 @@
 ---
 title: How Iranian software engineers are suffering from US sanctions
 date: 2020-10-27 12:00
-layout: page
+layout: post
 categories: misc
 ---
 
