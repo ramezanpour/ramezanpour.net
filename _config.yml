@@ -36,10 +36,10 @@ paginate_path: "/page:num/"
 
 paginate: 5
 
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+#kramdown:
+  #syntax_highlighter_opts:
+    #block:
+      #line_numbers: true
 
 permalink: /post/:year/:month/:day/:title
 # Exclude from processing.
