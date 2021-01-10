@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello and welcome to my website. My name is Mohammad Mahdi Ramezanpour. I have started developing software at the age of 13 with [QBasic](https://en.wikipedia.org/wiki/QBasic) and then [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic). After .NET Framework introduced by Microsoft, I migrated all of my project to .NET and became a .NET Developer for almost a decade.
+My name is Mohammad Mahdi Ramezanpour. I have started developing software at the age of 13 with [QBasic](https://en.wikipedia.org/wiki/QBasic) and then [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic). After .NET Framework introduced by Microsoft, I migrated all of my project to .NET and became a .NET Developer for almost a decade.
 
 During that time I have also developed iOS applications alongside .NET and successfully completed 4 iOS applications.
 

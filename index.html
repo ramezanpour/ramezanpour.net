@@ -1,55 +1,41 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 title: Home
 ---
 
-{% for post in paginator.posts %}
-    <article class="post">
-        <header>
-            <h1>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h1>
-        </header>
-        <div class="content">
-            {{ post.content }}
-        </div>
-        <footer class="text-right">
-            <span>
-                In
-                {% if post %}
-                    {% assign categories = post.categories %}
-                {% else %}
-                    {%
-      assign categories = page.categories %}
-                {% endif %}
-                {% for category in
-      categories %}
-                    <a href="{{site.url | relative_url }}/categories/#{{category|slugize}}">{{category | capitalize }}</a>
-                    {% unless forloop.last %},
-                    {% endunless %}
-                {% endfor %}
-            </span>
-            |
-            {{ post.date | date_to_string }}
-        </footer>
-    </article>
-{% endfor %}
-
-<!-- Pagination links -->
-<div>
-    {% if paginator.previous_page %}
-        <div class="col text-right">
-            <a class="btn btn-primary" href="{{ paginator.previous_page_path }}" class="previous">
-                Newer posts
-            </a>
-        </div>
-    {% endif %}
-    {% if paginator.next_page %}
-        <div class="col text-left">
-            <a href="{{ paginator.next_page_path }}" class="btn btn-primary">Older posts</a>
-        </div>
-    {% endif %}
+<div class="text-center">
+  <div class="home-avatar-container">
+    <img src="/assets/images/me.jpeg" alt="Mohammad Mahdi Ramezanpour" />
+  </div>
+  <div class="mt-4 home-note">
+    <h1>Mohammad M. Ramezanpour</h1>
+    <p>
+      Hello and welcome! I'm Software developer since 2002, husband since 2012,
+      and father since 2017. Also a bookworm, math lover, and physics enthusiast. I
+      kept this website alive since 2008 despite the fact that most of my posts
+      were lost due to my own laziness. I made tons of mistakes, failed so much
+      I can't remember the amount, and wasted a lot of time; but, I did my best
+      to learn from them.
+    </p>
+    <p>
+    I'm currently hooked by Golang, Python, and C. <a href="https://neovim.io/" target="_blank">Neovim</a> is my text editor of choice and I try to use the <a href="https://www.nordtheme.com/" target="_blank">Nord</a> wherever possible. 
+    </p>
+  </div>
+</div>
+<div class="row home-sub-section">
+  <div class="col-md mt-4">
+    <h3>Latest posts from <a href="/blog">the blog</a></h3>
+    {% for post in site.posts limit:7 %} 
+    <a class="latest-post-item" href="{{ post.url }}">{{ post.title }}</a>{%
+    endfor %}
+  </div>
+  <div class="col-md useful-links mt-4"><h3>Useful links</h3>
+    <a href="{% link about.markdown %}">A little more about me</a>
+    <a href="mailto:i@ramezanpour.net">Contact (Email)</a>
+    <a href="{% link feed.xml %}">Notify as new posts comes out (RSS)</a>
+    <a target="_blank" href="https://github.com/ramezanpour">Projects I'm working on (Github)</a>
+    <a target="_blank" href="https://www.goodreads.com/ramezanpour">Books I read (Goodreads)</a>
+    <a target="_blank" href="https://www.linkedin.com/in/ramezanpour/">Companies I worked for (LinkedIn)</a>
+    <a href="#">Resume (Coming soon)</a>
+  </div>
 </div>

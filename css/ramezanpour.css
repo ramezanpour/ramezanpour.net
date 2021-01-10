@@ -152,3 +152,29 @@ blockquote {
   font-style: italic;
   color: #777;
 }
+
+.home-avatar-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.home-sub-section h3 {
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 10px;
+}
+
+.home-sub-section .latest-post-item {
+  display: block;
+  padding: 5px 0px;
+}
+
+.home-sub-section .useful-links a {
+  display: block;
+  padding: 5px 0px;
+}
+
+.home-note p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
