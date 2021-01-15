@@ -24,7 +24,7 @@ title: Home
 </div>
 <div class="row home-sub-section">
   <div class="col-md mt-4">
-    <h3>Latest posts from <a href="/blog">the blog</a></h3>
+    <h3>Latest <a href="/blog">posts</a></h3>
     {% for post in site.posts limit:7 %} 
     <a class="latest-post-item" href="{{ post.url }}">{{ post.title }}</a>{%
     endfor %}

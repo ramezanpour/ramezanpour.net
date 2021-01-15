@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import 'github.css';
 
 h1,
@@ -26,7 +27,7 @@ h1 {
 .content ol,
 .content .category-items {
   font-size: 1.2em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'PT Serif', serif;
 }
 
 .content img {
@@ -167,14 +168,18 @@ blockquote {
 .home-sub-section .latest-post-item {
   display: block;
   padding: 5px 0px;
+  font-size: 1.2em;
+  font-family: 'PT Serif', serif;
 }
 
 .home-sub-section .useful-links a {
   display: block;
   padding: 5px 0px;
+  font-size: 1.2em;
+  font-family: 'PT Serif', serif;
 }
 
 .home-note p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
+  font-size: 1.2em;
+  font-family: 'PT Serif', serif;
 }
