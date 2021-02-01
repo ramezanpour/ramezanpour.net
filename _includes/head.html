@@ -1,15 +1,36 @@
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>{{ page.title }}
-    |
-    {{ site.title }}</title>
-<link rel="shortcut icon" href="{{"/assets/favicon.ico" | relative_url}}" type="image/x-icon">
-<link rel="icon" href="{{"/assets/favicon.ico" | relative_url}}" type="image/x-icon">
-<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet"/>
+<meta charset="utf-8" />
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<title>
+  {{ page.title }}
+  |
+  {{ site.title }}
+</title>
+<link rel="apple-touch-icon" sizes="180x180" href="{{
+  '/assets/apple-touch-icon.png' | relative_url
+}}"> <link rel="icon" type="image/png" sizes="32x32" href="{{
+  '/assets/favicon-32x32.png' | relative_url
+}}"> <link rel="icon" type="image/png" sizes="16x16" href="{{
+  '/assets/favicon-16x16.png' | relative_url
+}}"> <link rel="manifest" href="{{
+  '/assets/site.webmanifest' | relative_url
+}}"> <link rel="mask-icon" href="{{
+  '/assets/safari-pinned-tab.svg' | relative_url
+}}" color="#5bbad5"> <link rel="shortcut icon" href="{{
+  '/assets/favicon.ico' | relative_url
+}}">
+<meta name="msapplication-TileColor" content="#2b5797" />
+<meta name="msapplication-config" content="{{
+  '/assets/browserconfig.xml' | relative_url
+}}">
+<meta name="theme-color" content="#ffffff" />
+<link
+  crossorigin="anonymous"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  rel="stylesheet"
+/>
 
-<link rel="stylesheet" href="{{ "/css/ramezanpour.css" | relative_url }}"/>
-{%
-seo %}
-{% feed_meta %}
-{% comment %}{% include google_analytics.html  %}{% endcomment %}
+<link rel="stylesheet" href="{{ '/css/ramezanpour.css' | relative_url }}"/> {%
+seo %} {% feed_meta %} {% comment %}{% include google_analytics.html %}{%
+endcomment %}
