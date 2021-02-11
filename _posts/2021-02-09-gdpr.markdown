@@ -1,0 +1,109 @@
+---
+title: Implementing GDPR in my blog
+layout: post
+date: 2021-02-09 17:30:51 +0330
+categories: misc
+---
+
+![GDPR](/assets/images/gdpr.png)
+General Data Protection Regulation (GDPR) is the EU regulation to protect user data and privacy in Europe. A friend from Europe contacted a few days ago and told me that you don't have cookie notice in your website and asked to do something about it.
+
+My blog is powered by [Jekyll](https://jekyllrb.com/){:target="\_blank"} which is a static site generator. It doesn't (actually can't) gather users' data by itself. The only way to do so is by utilizing third-party JavaScripts. Except for one section, which is the comment section, I don't use any third-party scripts. I don't even have Google Analytics enabled on this blog. So to be able to truly implement the GDPR, I must only load the comment section when the user accepted the terms.
+
+## The approach
+
+There were two approaches for implementing GDPR here:
+
+- Whenever a new user comes in, ask to allow cookies by showing a pop-up or something similar (The most common way).
+- Only show the cookie notice when the user is in a post page and wants to see/write a comment.
+
+I believe the second approach is much better. Most of the times, users just want to read the blog post and leave. They don't want to leave a comment. Therefore, I don't even load the comment section at all! Instead, I show the following notice and when the user accepted the terms, I will load comments:
+
+![GDPR notice](/assets/images/gdpr_notice.png)
+
+## Implementation
+
+Disqus comment section is loaded into a `<div>` element using an inline javascript. So to implement this section I must first make sure the user accepted the cookie notice and then load the section. When the user click the approve button, I create a cookie. If the cookie doesn't exist, I realize that the user has not approved yet. So I wrote two functions; one for getting the cookie value by name (`getCookie(cname)`), and the second is for setting the cookie value (`setCookie(cname, value, exdays)`).
+
+```javascript
+function getCookie(cname) {
+  var name = cname + '=';
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+
+  // Return empty string if cookie with specified name not found.
+  return '';
+}
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+  var expires = 'expires=' + d.toUTCString();
+  document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/';
+}
+```
+
+The first function `getCookie` check all website cookies to see if there's any match with the name `cname`. If not, it returns _an empty string_. You may also want to return `undefined` instead but I chose to just return an empty string.
+In addition to these function I also have two `div`s. The one for loading the Diqus comments in and the second for the notice itself:
+
+```html
+<div id="disqus_thread"></div>
+<div id="cookie_notice" class="alert alert-info">
+  The comment section uses cookies and third-party JavaScripts. To enable
+  comments please click the approve button. For more information please checkout
+  <a
+    href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
+    target="_blank"
+    >Disqus privacy policy</a
+  >
+  <button id="approve_cookie" class="btn btn-sm btn-primary">Approve</button>
+</div>
+```
+
+Then I have to handle the `onClick` event of the `approve_cookie` button to set the cookie when it's clicked:
+
+```javascript
+document.getElementById('approve_cookie').onclick = function () {
+  setCookie('cookie-confirm-accepted', '1', 30);
+  window.location.reload();
+};
+```
+
+Finally I have to load the comment section only if the user accepted the terms; otherwise, the cookie notice `div` must be shown:
+
+```javascript
+var cookie_container = document.getElementById('cookie_notice');
+var disqus_config = function () {
+  this.page.url = '[the page URL]';
+  this.page.identifier = '[the page Identifier]';
+};
+
+(function () {
+  cookie_container.style.display = 'block';
+  if (getCookie('cookie-confirm-accepted') === '') {
+    // Don't load the rest if the user cookie was empty
+    return;
+  }
+  cookie_container.style.display = 'none';
+  var d = document,
+    s = d.createElement('script');
+
+  s.src = 'https://[disqus username].disqus.com/embed.js';
+
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+```
+
+Please also note that the cookie we create has an expire date of 30 days (`30 * 24 * 60 * 60 * 1000`); so the notice will be shown again after that.
+
+Beside GDPR, I also realized that my blog loads much faster since there is once less library to load. The only libraries I'm currently use are Bootstrap and `PT Serif` font from Google Fonts.
