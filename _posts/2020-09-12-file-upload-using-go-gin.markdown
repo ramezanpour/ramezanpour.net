@@ -5,7 +5,7 @@ date: 2020-09-12 00:15
 layout: page
 ---
 
-This post is my third post covering concepts of [Gin](https://gin-gonic.com/){:target="blank"}  , the HTTP web framework for Go. My previous post are:
+This post is my third post covering concepts of [Gin](https://gin-gonic.com/){:target="blank"} , the HTTP web framework for Go. My previous post are:
 
 - [How to use custom HTTP methods in Go Gin framework]({% post_url 2020-08-16-how-to-use-custom-http-method-in-go-gin-framework %})
 - [How to enable CORS support in Gin]({% post_url 2020-08-23-cors-support-go-gin %})
@@ -18,19 +18,18 @@ The most common way to upload a file in a web browser is via the html file uploa
 import Axios from 'axios';
 
 uploadFile = (file) => {
-    const formData = new FormData();
-    formData.append('file', file);
-    Axios.post("https://example.com/upload", formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
-      })
-      .then((resp) => {
-        if (resp.status === 200) {
-          console.log('File uploaded')
-        }
-      })
-}
+  const formData = new FormData();
+  formData.append('file', file);
+  Axios.post('https://example.com/upload', formData, {
+    headers: {
+      'Content-Type': 'multipart/form-data',
+    },
+  }).then((resp) => {
+    if (resp.status === 200) {
+      console.log('File uploaded');
+    }
+  });
+};
 ```
 
 If everything goes fine, the file will be sent to the server. Now it's time to get the file and save it some where in our server. Fortunately, Gin provides a very simply way to receive files. Gin's `Context` argument (which all route handlers must have) has a `FromFile` method which helps you receive files from a multi-part content. Please take a look the following example:
@@ -45,7 +44,7 @@ import (
 )
 
 func saveFileHandler(c *gin.Context) {
-    file, err := c.FromFile("file")
+    file, err := c.FormFile("file")
 
     // The file cannot be received.
     if err != nil {
