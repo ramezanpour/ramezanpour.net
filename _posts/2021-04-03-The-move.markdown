@@ -1,0 +1,19 @@
+---
+title: The move
+layout: post
+date: 2021-04-03 22:34:41+1:00CET
+categories: personal
+---
+
+![Berlin. Photo taken from: https://strongcitiesnetwork.org/en/wp-content/uploads/sites/5/2017/11/Berlin-Nikolaiviertel-scaled.jpg](/assets/images/berlin-city.jpeg)
+There are some certain events that change people's lives and all of us may experience one or some of them. For example, when one gets married, or when one becomes a parent. These events cause radical changes. You cannot be the same person after you become a father or mother. On the other hand, people want to grow. They take risks to become a better person. For example, one may take risk and start a new business. The business may fail, but at the same time it may make you grow!
+
+Living in Iran is challenging especially for developers. During my 15 years of experience, I faced lots of restrictions. [Most companies ar not allowed to provide their services to Iranians]({% post_url 2020-10-27-how-iranian-software-engineers-are-suffering-from-us-sanctions %}). On the other hand, Iranians can not trade with people in other countries because of banking restrictions. For example, buying a $5/month droplet from DigitalOcean, which is one of the most trivial things to do for developers, is a challenge for Iranians. Therefore, companies who are able to pay for these services are reselling them with twice (or even higher) the price. For instance, renewing a ".com" domain will cost you around $20 while the real price is just $10.
+
+These were just some of the challenges Iranians are facing. But as a matter of fact, these are not my problem. My problem is uncertainty! You may be able buy a razor today, but you may not be able to find the razor blades after 6 month or so! You cannot plan you future because things change very rapidly and in a chaotic manner. People decide to buy a car so they start to save some money. They know they can buy their desired car in 6 months. But when the price increases everyday, one can't plan in advance. This is what I call uncertainty.
+
+That's why we decided to move. We left our parents, siblings and friends to grow. To make a better future for ourselves and our children. We do it so we can gain access to resources other people in the world have. We may have to sacrifice things to be able to achieve something else. But we have done it.
+
+It's about a month that we have moved to Berlin. We were in a 10-day mandatory quarantine as we arrived but after 10 days we started to discover new things. One of the things that I lik about here is the German lifestyle. I like it that people pay attention to the environment and so on. Because of the COVID-19 we couldn't discover most of attractions yey as amusement parks, cinemas, museum, concerts, etc are closed. Although we were are able to communicate comfortably in English but we've also started to learn German as well as some people tend to use German over English.
+
+Moving to another country is difficult but I hope we get over this challenge as well.
