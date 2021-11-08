@@ -1,13 +1,12 @@
-@import 'github.css';
+@import "github.css";
 
 h1,
 h2,
 h3,
 h4 {
   font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
 }
 
 article h1 a {
@@ -26,8 +25,7 @@ h1 {
 .content ul,
 .content ol,
 .content .category-items {
-  font-size: 1.1em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
 
@@ -48,10 +46,6 @@ h1 {
     display: block;
     margin: 10px auto;
   }
-}
-
-.content code {
-  font-size: 16px;
 }
 
 .content pre {
@@ -85,8 +79,7 @@ article footer {
 
 .sidebar small {
   color: #777;
-  font-size: 13px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .sidebar section {
@@ -170,18 +163,15 @@ blockquote {
 .home-sub-section .latest-post-item {
   display: block;
   padding: 5px 0px;
-  font-size: 1.2em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-sub-section .useful-links a {
   display: block;
   padding: 5px 0px;
-  font-size: 1.1em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-note p {
-  font-size: 1.1em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
