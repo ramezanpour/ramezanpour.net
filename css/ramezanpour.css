@@ -5,7 +5,6 @@ h2,
 h3,
 h4 {
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
 
@@ -25,8 +24,8 @@ h1 {
 .content ul,
 .content ol,
 .content .category-items {
-  font-family: Arial, Helvetica, sans-serif;
   color: #333;
+  font-size: 1.1em;
 }
 
 .content img {
@@ -79,7 +78,6 @@ article footer {
 
 .sidebar small {
   color: #777;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .sidebar section {
@@ -163,15 +161,13 @@ blockquote {
 .home-sub-section .latest-post-item {
   display: block;
   padding: 5px 0px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-sub-section .useful-links a {
   display: block;
   padding: 5px 0px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-note p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
 }
