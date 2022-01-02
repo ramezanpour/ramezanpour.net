@@ -1,4 +1,5 @@
 @import "github.css";
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 h1,
 h2,
@@ -25,7 +26,8 @@ h1 {
 .content ol,
 .content .category-items {
   color: #333;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-family: "PT Serif", serif;
 }
 
 .content img {
@@ -161,13 +163,16 @@ blockquote {
 .home-sub-section .latest-post-item {
   display: block;
   padding: 5px 0px;
+  font-size: 1.2em;
 }
 
 .home-sub-section .useful-links a {
   display: block;
   padding: 5px 0px;
+  font-size: 1.2em;
 }
 
 .home-note p {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-family: "PT Serif", serif;
 }
