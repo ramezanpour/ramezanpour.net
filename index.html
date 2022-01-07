@@ -3,11 +3,11 @@ layout: home
 title: Home
 ---
 
-<div class="text-center">
-  <div class="home-avatar-container">
+<div class="home">
+  <div class="avatar-container">
     <img src="/assets/images/me.jpeg" alt="Mohammad Mahdi Ramezanpour" />
   </div>
-  <div class="mt-4 home-note">
+  <div class="note">
     <h1>Mohammad M. Ramezanpour</h1>
     <p>
       Hello and welcome! I'm a Software developer since 2002, husband since
@@ -19,23 +19,22 @@ title: Home
     </p>
     <p>
       I'm currently hooked by Golang, Python, and C. *nix terminal is my home
-      and
-      <a href="https://neovim.io/" target="_blank">Neovim</a> is my text editor
-      of choice.
+      and (neo)vim is my text editor of choice.
     </p>
   </div>
 </div>
-<div class="row home-sub-section">
-  <div class="col-md mt-4">
-    <h3>Latest <a href="/blog">posts</a></h3>
+<div class="home-sub-section">
+  <div class="latest-posts">
+    <h3>Lastest posts from the <a href="/blog">blog</a></h3>
     {% for post in site.posts limit:7 %}
-    <a class="latest-post-item" href="{{ post.url }}">{{ post.title }}</a
-    >{% endfor %}
+    <a class="latest-post-item" href="{{ post.url }}">{{ post.title }}</a>
+    <small>{{ post.date | date_to_string }}</small>
+    {% endfor %}
   </div>
-  <div class="col-md useful-links mt-4">
+  <div class="useful-links">
     <h3>Useful links</h3>
     <a href="{% link about.markdown %}">A little more about me</a>
-    <a href="mailto:i@ramezanpour.net">Contact (Email)</a>
+    <a href="{% link contact.markdown %}">Contact</a>
     <a href="{% link feed.xml %}">Notify as new posts comes out (RSS)</a>
     <a target="_blank" href="https://github.com/ramezanpour"
       >Projects I'm working on (Github)</a
@@ -46,6 +45,6 @@ title: Home
     <a target="_blank" href="https://www.linkedin.com/in/ramezanpour/"
       >Companies I worked for (LinkedIn)</a
     >
-    <a href="#">Resume (Coming soon)</a>
   </div>
+  <div style="clear: both"></div>
 </div>
