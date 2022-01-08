@@ -62,7 +62,6 @@ a:hover {
 .content .category-items {
   color: var(--black);
   font-size: 1.2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 article h1 a {
@@ -121,6 +120,7 @@ blockquote {
 .home {
   text-align: center;
 }
+
 .home .avatar-container img {
   width: 200px;
   height: 200px;
@@ -129,7 +129,6 @@ blockquote {
 
 .home .note p {
   font-size: 1.2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .home-sub-section h3 {
@@ -192,6 +191,8 @@ blockquote {
   }
 }
 
-code {
-  overflow-x: scroll;
+pre {
+  overflow-x: auto;
+  word-wrap: break-word;
+  word-break: break-all;
 }
