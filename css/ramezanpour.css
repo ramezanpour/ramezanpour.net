@@ -86,24 +86,6 @@ h1 a:hover {
   max-width: 300px;
 }
 
-@media only screen and (max-width: 768px) {
-  .content img.f-right {
-    float: none;
-    display: block;
-    margin: 5px auto;
-  }
-
-  .header h2 {
-    float: none;
-    text-align: center;
-  }
-
-  .header nav {
-    float: none;
-    text-align: center;
-  }
-}
-
 .content pre {
   padding: 10px;
   border-radius: 5px;
@@ -180,4 +162,35 @@ blockquote {
   display: block;
   padding: 5px 0px;
   font-size: 1.2em;
+}
+
+@media only screen and (max-width: 768px) {
+  .content img.f-right {
+    float: none;
+    display: block;
+    margin: 5px auto;
+  }
+
+  .header h2 {
+    float: none;
+    text-align: center;
+  }
+
+  .header nav {
+    float: none;
+    text-align: center;
+  }
+  .home-sub-section .useful-links {
+    float: none;
+    width: unset;
+  }
+
+  .home-sub-section .latest-posts {
+    float: none;
+    width: unset;
+  }
+}
+
+code {
+  overflow-x: scroll;
 }
