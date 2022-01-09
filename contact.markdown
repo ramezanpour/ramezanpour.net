@@ -4,6 +4,8 @@ permalink: /contact/
 layout: page
 ---
 
-Normally, there should be a contact form here. But I want to keep it as simple as possible ;)
+If you want to contact me, these are the ways:
 
-To contact me, please use my email address: i(at)ramezanpour.net. That's it.
+- Email me at: i[at]ramezanpour.net
+- Find me on LinkedIn: [https://www.linkedin.com/in/ramezanpour/](https://www.linkedin.com/in/ramezanpour/)
+- I don't think GitHub has a messaging system; but, here it is anyway: [https://github.com/ramezanpour](https://github.com/ramezanpour)
