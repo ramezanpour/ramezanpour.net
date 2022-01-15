@@ -74,11 +74,14 @@ h1 a:hover {
 
 .content img {
   max-width: 100%;
+  margin: unset;
   margin-bottom: 5px;
   margin-top: 5px;
+  display: block;
 }
 
 .content img.f-right {
+  display: unset;
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -165,10 +168,12 @@ blockquote {
 }
 
 @media only screen and (max-width: 768px) {
+  .content img {
+    margin: 5px auto;
+  }
   .content img.f-right {
     float: none;
     display: block;
-    margin: 5px auto;
   }
 
   .header h2 {
