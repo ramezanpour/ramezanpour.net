@@ -19,7 +19,7 @@ What I have experienced during the these 18 months is that, the advantages of
 Twitter and other social networks are radically less than their disadvantages.
 I think we are spending our most valuable thing, which is time, making money
 for social network companies while we don't get too much of them. Even if you
-follow, Nasa, MIT, or your favorite music band doesn't mean that your time is
+follow, NASA, MIT, or your favorite music band doesn't mean that your time is
 spent meaningfully.
 
 But one may ask, I use social networks to stay informed about topics I like! If
