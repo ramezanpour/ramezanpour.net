@@ -61,7 +61,7 @@ a:hover {
 .content ol,
 .content .category-items {
   color: var(--black);
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 article h1 a {
@@ -131,7 +131,7 @@ blockquote {
 }
 
 .home .note p {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .home-sub-section h3 {
@@ -142,7 +142,7 @@ blockquote {
 .home-sub-section .latest-post-item {
   display: block;
   padding: 5px 0px;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .home-sub-section .latest-posts small {
@@ -164,7 +164,7 @@ blockquote {
 .home-sub-section .useful-links a {
   display: block;
   padding: 5px 0px;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 @media only screen and (max-width: 768px) {
