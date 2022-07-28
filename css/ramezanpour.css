@@ -61,10 +61,11 @@ a:hover {
 .content ol,
 .content .category-items {
   color: var(--black);
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1.4em;
   text-align: justify;
   word-wrap: break-word;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 article h1 a {
@@ -152,6 +153,7 @@ blockquote {
   line-height: 1.4em;
   text-align: justify;
   word-wrap: break-word;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .home-sub-section h3 {
