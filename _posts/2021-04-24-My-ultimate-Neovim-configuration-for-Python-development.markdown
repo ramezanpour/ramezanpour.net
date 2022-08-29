@@ -2,7 +2,7 @@
 title: My ultimate Neovim configuration for Python development
 layout: post
 date: 2021-04-24 20:36:37
-categories: programming
+categories: programming neovim
 ---
 
 It's about 5 years that I'm using Neovim as my daily text editor especially when it comes to software development. On the other hand, I do lots of Python programming during the last 4 years and so to develop more comfortably, I had to configure my text editor as well. In this post, I'm going to explain my daily setup for Python software development.
