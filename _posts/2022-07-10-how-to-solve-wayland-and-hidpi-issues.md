@@ -5,13 +5,13 @@ date: 2022-07-24 23:00 CET
 categories: linux
 ---
 
-Since I joined my current company, I had been using a 2020 Macbook Pro. To be honest, I was totally satisfied with that laptop as it was super stable. But the main reason I chose a Mac rather than Linux when I joined was because of the fact that at the time I joined the company, they were offerring Dell Latidudes for Linux which are (in my opinion) not the best choices. Recently, the company announced that in addition to Dell laptops they have started to offer ThinkPad laptops for Linux users as well! So, without thinking further I requested it :)
+Since I joined my current company, I had been using a 2020 Macbook Pro. To be honest, I was totally satisfied with that laptop as it was super stable. But the main reason I chose a Mac rather than Linux when I joined was because of the fact that at the time I joined the company, they were offering Dell Latidudes for Linux which are (in my opinion) not the best choices. Recently, the company announced that in addition to Dell laptops they have started to offer ThinkPad laptops for Linux users as well! So, without thinking further I requested it :)
 
 ## Diffrent scale for each monitor
 
 After receiving the new laptop, it took me a few days to configure it the way I want. At first, I had some issues with multiple monitor configurations and settings. The problem was I couldn't set different scale factors for each monitor separately. When trying to do so, it was applying the last configuration to all of my monitors instead of keeping each configuration separated. I researched a lot about it and and realized that I had to activate the "Fractional Scaling" to be able to have separated configs for each monitor even if I didn't want to use the actual fractional scaling feature.
 
-So, if you want to set different scaling presentage for each monitors, you need to activate "Fractional Scaling" just like the following:
+So, if you want to set different scaling percentage for each monitors, you need to activate "Fractional Scaling" just like the following:
 
 ![Fractional scaling option in GNOME Control Center](/assets/images/wayland_fractional_sclaing.png){:style="margin:
 0px auto;"}
@@ -32,8 +32,8 @@ You may say OK but I usually open Google Chrome from the menu not the terminal. 
 Exec=/usr/bin/google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland %U
 ```
 
-The only issue with this method is that every time apps are updated, they usually update their shortcuts as part of the installation process; so, you may need to do the steps mentioned above everytime you update the apps.
+The only issue with this method is that every time apps are updated, they usually update their shortcuts as part of the installation process; so, you may need to do the steps mentioned above every time you update the apps.
 
-## Conclustion
+## Conclusion
 
-Although more and more user are using Linux as their preferred desktop operating system, the application support is still limited in my opinion. You cannot expect everything to work as you expect from macOS and as a result, you should prepare yourself for a little bit of uncomfortability when want to switch to Linux OS especially for work. Also, all of the issues I have mentioned above are in place if you decide to choose "Wayland". There's also an option which you can use the legacy "X11" and according to my knowledge you won't face any of the mentioned issues.
+Although more and more user are using Linux as their preferred desktop operating system, the application support is still limited in my opinion. You cannot expect everything to work as you expect from macOS and as a result, you should prepare yourself for a little bit of uncomfortably when want to switch to Linux OS especially for work. Also, all of the issues I have mentioned above are in place if you decide to choose "Wayland". There's also an option which you can use the legacy "X11" and according to my knowledge you won't face any of the mentioned issues.
