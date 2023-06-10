@@ -13,7 +13,7 @@ Since I don't like this behavior as well, whenever I configure a new machine, on
 
 Unlike vim, clipboard management in neovim is done via third-party apps. Consequently, you will need different tools for each OS you are working with. According to the neovim's official documentation, for each OS, specific tools are required. So let's dig in to each OS's configuration separately:
 
-## macOS
+### macOS
 
 The macOS configuration is probably the most straight-forward one since the `pbcopy` and `pbpaste` commands are already available. You all you need to do is to just set the clipboard correctly:
 
@@ -21,7 +21,7 @@ The macOS configuration is probably the most straight-forward one since the `pbc
 set clipboard+=unnamedplus
 ```
 
-## Windows
+### Windows
 
 To be able to system clipboard on Windows, you need to install `win32yank` app. You can download it from [here](https://github.com/equalsraf/win32yank). After that, you need to set the clipboard just the macOS:
 
@@ -31,7 +31,7 @@ set clipboard+=unnamedplus
 
 **Note:** I haven't tried this myself since I don't have any Windows machine.
 
-## Linux
+### Linux
 
 Although accessing system clipboard should be the most straight-forward way on Linux; it's not :-/ It's actually depends on the window system that is being used. The two mostly used window systems are **Wayland** and **X11**:
 

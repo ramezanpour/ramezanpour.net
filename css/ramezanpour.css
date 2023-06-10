@@ -64,11 +64,15 @@ a:hover {
   color: var(--black);
   word-wrap: break-word;
   text-align: justify;
-  line-height: 120%;
+  line-height: 140%;
 }
 
 article h1 a {
   color: var(--black);
+}
+
+article h1 {
+  font-size: 300%;
 }
 
 h1 a:hover {
@@ -120,6 +124,7 @@ footer.main-footer {
   margin-top: 20px;
   padding-top: 20px;
   color: #777;
+  font-size: small;
 }
 
 .blog .post {
