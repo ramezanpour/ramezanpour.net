@@ -22,16 +22,24 @@ title: Home
       and (neo)vim is my text editor of choice.
     </p>
   </div>
+  <nav class="menu">
+    <a href="{% link index.html %}">Home</a> |
+    <a href="{% link blog/index.html %}">Blog</a> | 
+    <a href="{% link about.markdown %}">About</a> | 
+    <a href="{% link contact.markdown %}">Contact</a> | 
+    <a href="https://www.goodreads.com/ramezanpour">Books</a> | 
+    <a href="{% link feed.xml %}">RSS</a>
+  </nav>
 </div>
 <div class="home-sub-section">
   <div class="latest-posts">
     <h3>Lastest posts from the <a href="/blog">blog</a></h3>
-    {% for post in site.posts limit:7 %}
+    {% for post in site.posts limit:12 %}
     <a class="latest-post-item" href="{{ post.url }}">{{ post.title }}</a>
     <small>{{ post.date | date_to_string }}</small>
     {% endfor %}
   </div>
-  <div class="useful-links">
+  <!-- <div class="useful-links">
     <h3>Useful links</h3>
     <a href="{% link about.markdown %}">A little more about me</a>
     <a href="{% link contact.markdown %}">Contact</a>
@@ -45,6 +53,5 @@ title: Home
     <a target="_blank" href="https://www.linkedin.com/in/ramezanpour/"
       >Companies I worked for (LinkedIn)</a
     >
-  </div>
-  <div style="clear: both"></div>
+  </div> -->
 </div>

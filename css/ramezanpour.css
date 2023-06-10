@@ -27,33 +27,17 @@ a:hover {
 }
 
 .header {
-  border-bottom: 1px solid var(--second);
+  text-align: center;
 }
 
-.header h1 {
-  float: left;
-  line-height: 50px;
-  margin: 0px;
-  text-align: left;
+.header img {
+  border-radius: 50%;
+  width: 100px;
 }
 
-.header nav {
-  float: right;
-  text-align: right;
-  line-height: 50px;
-}
-
-.header nav a {
+.menu a {
   margin: 0px 5px;
   padding: 5px;
-}
-
-.menu:first-child {
-  margin-left: 0px;
-}
-
-.menu:last-child {
-  margin-right: 0px;
 }
 
 .content p,
@@ -111,6 +95,7 @@ code {
   background-color: #f5f5f5;
   border-radius: 3px;
   padding: 3px;
+  font-size: 120%;
 }
 
 article footer {
@@ -166,10 +151,6 @@ blockquote {
   margin-bottom: 5px;
 }
 
-.home-sub-section .latest-posts {
-  float: left;
-  width: 49.5%;
-}
 
 .home-sub-section .useful-links {
   float: right;
@@ -189,26 +170,6 @@ blockquote {
   .content img.f-right {
     float: none;
     display: block;
-  }
-
-  .header h2 {
-    float: none;
-    text-align: center;
-  }
-
-  .header nav {
-    float: none;
-    text-align: center;
-  }
-
-  .home-sub-section .useful-links {
-    float: none;
-    width: unset;
-  }
-
-  .home-sub-section .latest-posts {
-    float: none;
-    width: unset;
   }
 }
 
