@@ -10,24 +10,24 @@ title: Home
   <div class="note">
     <h1>Mohammad M. Ramezanpour</h1>
     <p>
-      Welcome to my website! I'm a Software developer since 2002, husband since
-      2012, and father since 2017. Also a bookworm, math lover, and physics
-      enthusiast. I kept this website alive since 2008 although most of my posts
-      were lost due to my own laziness. I made tons of mistakes, failed so much
-      I can't remember the amount, and wasted a lot of time; but, I did my best
-      to learn from them.
+      Hello and Welcome! My name is Mohammad and I am a Software developer since
+      2002, husband since 2012, and father since 2017. Also a bookworm, math
+      lover, and physics enthusiast. I use this website write about my
+      experiences and new things that I learn through my life. I made tons of
+      mistakes, failed so much I can't remember the amount, and wasted a lot of
+      time; but, I did my best to learn from them.
     </p>
     <p>
-      I'm currently hooked by Golang, Python, and C. *nix terminal is my home
-      and (neo)vim is my text editor of choice.
+      Currently, my focus is around Python, Golang, the C programming language,
+      and people management.
     </p>
   </div>
   <nav class="menu">
     <a href="{% link index.html %}">Home</a> |
-    <a href="{% link blog/index.html %}">Blog</a> | 
-    <a href="{% link about.markdown %}">About</a> | 
-    <a href="{% link contact.markdown %}">Contact</a> | 
-    <a href="https://www.goodreads.com/ramezanpour">Books</a> | 
+    <a href="{% link blog/index.html %}">Blog</a> |
+    <a href="{% link about.markdown %}">About</a> |
+    <a href="{% link contact.markdown %}">Contact</a> |
+    <a href="https://www.goodreads.com/ramezanpour">Books</a> |
     <a href="{% link feed.xml %}">RSS</a>
   </nav>
 </div>
@@ -39,19 +39,4 @@ title: Home
     <small>{{ post.date | date_to_string }}</small>
     {% endfor %}
   </div>
-  <!-- <div class="useful-links">
-    <h3>Useful links</h3>
-    <a href="{% link about.markdown %}">A little more about me</a>
-    <a href="{% link contact.markdown %}">Contact</a>
-    <a href="{% link feed.xml %}">Notify as new posts comes out (RSS)</a>
-    <a target="_blank" href="https://github.com/ramezanpour"
-      >Projects I'm working on (Github)</a
-    >
-    <a target="_blank" href="https://www.goodreads.com/ramezanpour"
-      >Books I read (Goodreads)</a
-    >
-    <a target="_blank" href="https://www.linkedin.com/in/ramezanpour/"
-      >Companies I worked for (LinkedIn)</a
-    >
-  </div> -->
 </div>
