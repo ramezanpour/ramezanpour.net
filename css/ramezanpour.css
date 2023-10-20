@@ -74,8 +74,8 @@ a:hover {
 .home .note p {
   color: var(--black);
   word-wrap: break-word;
-  text-align: justify;
   line-height: 140%;
+  font-size: 110%;
 }
 
 article h1 a {
@@ -154,6 +154,10 @@ blockquote {
 
 .home {
   text-align: center;
+}
+
+.home .note p {
+  text-align: justify;
 }
 
 .home .avatar-container img {
