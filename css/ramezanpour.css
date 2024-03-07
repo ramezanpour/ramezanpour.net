@@ -2,19 +2,19 @@
 @import "highlight-dark.css" (prefers-color-scheme: dark);
 
 :root {
-  --first: #17b890;
-  --second: #9dc5bb;
+  --first: #5e81ac;
+  --second: #81a1c1;
   --black: #333;
   --code: #f5f5f5;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #111;
+    background-color: #2e3440;
     color: var(--black);
   }
   :root {
-    --first: #17b890;
+    --first: #8fbcbb;
     --second: #9dc5bb;
     --black: #ccc;
     --code: #222;
