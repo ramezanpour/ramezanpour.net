@@ -4,7 +4,7 @@ permalink: /contact/
 layout: page
 ---
 
-I'm available in the following:
+I'm avaialble via the following:
 
 - Email me at: i[at]ramezanpour.net
 - Find me on LinkedIn: [https://www.linkedin.com/in/ramezanpour/](https://www.linkedin.com/in/ramezanpour/)
