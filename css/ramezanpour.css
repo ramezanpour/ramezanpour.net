@@ -110,6 +110,10 @@ h1 a:hover {
   max-width: 300px;
 }
 
+.content p {
+  text-align: justify;
+}
+
 .content pre {
   padding: 10px;
   border-radius: 5px;
@@ -158,7 +162,6 @@ blockquote {
 .home {
   text-align: center;
 }
-
 .home .note p {
   text-align: justify;
 }
