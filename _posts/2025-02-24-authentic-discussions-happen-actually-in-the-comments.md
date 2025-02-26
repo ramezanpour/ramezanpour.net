@@ -20,6 +20,6 @@ After posting, I received a few strange comments like, “What is this?” I was
 
 To me, these behavioral patterns are alarming. As social media addiction grows, people skim through almost everything instead of taking the time to process, reflect, and engage meaningfully. This isn’t just my personal observation. In 2018, [Maryanne Wolf](https://en.wikipedia.org/wiki/Maryanne_Wolf) published an article in The Guardian titled [Skim Reading Is the New Normal—The Effect on Society Is Profound](https://www.theguardian.com/commentisfree/2018/aug/25/skim-reading-new-normal-maryanne-wolf). In the article, she explained how social media has conditioned us to skim rather than read deeply:
 
-> “When the reading brain skims texts, we don’t have time to grasp complexity, to understand another’s feelings, or to perceive beauty. We need a new literacy for the digital age.”
+> When the reading brain skims texts, we don’t have time to grasp complexity, to understand another’s feelings, or to perceive beauty. We need a new literacy for the digital age.
 
 All in all, we need to be mindful of how we use social media—before it’s too late.
