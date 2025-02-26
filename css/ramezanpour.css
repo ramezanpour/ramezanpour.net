@@ -202,12 +202,12 @@ blockquote {
 }
 
 @media only screen and (max-width: 768px) {
-  .content {
-    margin: 0 7px;
+  .post {
+    margin: 0 5px;
   }
 
   .content img {
-    margin: 7px auto;
+    margin: 5px auto;
   }
 
   .content img.f-right {
@@ -221,5 +221,9 @@ blockquote {
   .content .category-items,
   .home .note p {
     text-align: left;
+  }
+
+  .home {
+    margin: 0 5px;
   }
 }
