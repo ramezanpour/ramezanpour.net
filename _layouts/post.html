@@ -57,7 +57,11 @@
             commentsJson.forEach((item) => {
               const d = document.createElement("div");
               d.className = "comment-item";
-              d.innerHTML = `<div class="name">${item.name}</div><div class="message">${item.message}</div>`;
+              d.innerHTML = `<div class="name">${item.name} - ${new Date(
+                item.timestamp
+              ).toLocaleString("en-UK")}</div><div class="message">${
+                item.message
+              }</div>`;
               currentComments.appendChild(d);
             });
           }
