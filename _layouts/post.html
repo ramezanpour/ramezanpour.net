@@ -14,6 +14,98 @@
           </header>
           <div class="content">{{ content }}</div>
         </article>
+        <h2>Comments</h2>
+        <div id="currentComments"></div>
+        <h2>Add your comment</h2>
+        <div id="banner" class="comment-info-banner-success" hidden>
+          Something
+        </div>
+        <form id="commentSubmit" class="comment-form">
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Your name"
+            required
+          />
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Your email address (Optional)"
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your comment"
+            required
+          ></textarea>
+          <button type="submit" id="submitButton">Submit comment</button>
+        </form>
+        <script>
+          const baseUrl = "https://nazar.ramezanpour.net/api";
+          async function fetchComments() {
+            const currentComments = document.getElementById("currentComments");
+            const comments = await fetch(
+              baseUrl + "/ramezanpour/comments/{{ page.slug }}",
+              {
+                method: "GET",
+                headers: { "Content-Type": "application/json" },
+              }
+            );
+
+            const commentsJson = await comments.json();
+            if (commentsJson.length === 0) {
+              currentComments.innerHTML = `<div>There's no comment on this post yet!</div>`;
+            } else {
+              commentsJson.forEach((item) => {
+                const d = document.createElement("div");
+                d.className = "comment-item";
+                d.innerHTML = `<div class="name">${item.name} - ${new Date(
+                  item.timestamp
+                ).toLocaleString("en-UK")}</div><div class="message">${
+                  item.message
+                }</div>`;
+                currentComments.appendChild(d);
+              });
+            }
+          }
+          fetchComments();
+          document
+            .getElementById("commentSubmit")
+            .addEventListener("submit", async function (event) {
+              event.preventDefault();
+
+              const formData = new FormData(this);
+              const jsonObject = {};
+              const submitButton = document.getElementById("submitButton");
+              const banner = document.getElementById("banner");
+              const form = document.getElementById("commentSubmit");
+              formData.forEach((value, key) => (jsonObject[key] = value));
+
+              const response = await fetch(
+                baseUrl + "/ramezanpour/comments/{{ page.slug }}",
+                {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(jsonObject),
+                }
+              );
+
+              if (response.ok) {
+                banner.hidden = false;
+                banner.className = "comment-info-banner-success";
+                banner.innerText =
+                  "Your comment has been submittted and it will be shown shortly.";
+                form.reset();
+              } else {
+                banner.hidden = false;
+                banner.className = "comment-info-banner-fail";
+                banner.innerText =
+                  "We were unable to submit your comment due to an error.";
+              }
+            });
+        </script>
       </div>
       {% include footer.html %}
     </div>
