@@ -43,10 +43,11 @@
           <button type="submit" id="submitButton">Submit comment</button>
         </form>
         <script>
+          const baseUrl = "https://nazar.ramezanpour.net/api";
           async function fetchComments() {
             const currentComments = document.getElementById("currentComments");
             const comments = await fetch(
-              "http://localhost:8000/ramezanpour/comments/{{page.slug }}",
+              baseUrl + "/ramezanpour/comments/{{ page.slug }}",
               {
                 method: "GET",
                 headers: { "Content-Type": "application/json" },
@@ -54,16 +55,20 @@
             );
 
             const commentsJson = await comments.json();
-            commentsJson.forEach((item) => {
-              const d = document.createElement("div");
-              d.className = "comment-item";
-              d.innerHTML = `<div class="name">${item.name} - ${new Date(
-                item.timestamp
-              ).toLocaleString("en-UK")}</div><div class="message">${
-                item.message
-              }</div>`;
-              currentComments.appendChild(d);
-            });
+            if (commentsJson.length === 0) {
+              currentComments.innerHTML = `<div>There's no comment on this post yet!</div>`;
+            } else {
+              commentsJson.forEach((item) => {
+                const d = document.createElement("div");
+                d.className = "comment-item";
+                d.innerHTML = `<div class="name">${item.name} - ${new Date(
+                  item.timestamp
+                ).toLocaleString("en-UK")}</div><div class="message">${
+                  item.message
+                }</div>`;
+                currentComments.appendChild(d);
+              });
+            }
           }
           fetchComments();
           document
@@ -79,7 +84,7 @@
               formData.forEach((value, key) => (jsonObject[key] = value));
 
               const response = await fetch(
-                "http://localhost:8000/ramezanpour/comments/{{page.slug }}",
+                baseUrl + "/ramezanpour/comments/{{ page.slug }}",
                 {
                   method: "POST",
                   headers: { "Content-Type": "application/json" },
