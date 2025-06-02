@@ -1,32 +1,34 @@
 ---
 layout: page
-title: A little bit more about me
+title: About me
 permalink: /about/
 ---
 
-My name is Mohammad Mahdi Ramezanpour. I was born and grown in Tehran, Iran;
-but, now live in Berlin, Germany. I have started developing software at the age
-of 13 with [QBasic](https://en.wikipedia.org/wiki/QBasic) and then [Visual
-Basic](https://en.wikipedia.org/wiki/Visual_Basic). After .NET Framework was
-introduced by Microsoft, I migrated all of my projects to .NET and became a
-.NET Developer for almost around 10 years.
+Welcome! On this page, you’ll find more information about who I am, my areas of expertise, and a summary of my work experience.
 
-In 2013 and for a short time, I have also tried mobile application development
-and developed 4 iOS applications but TBH I didn't like it.
+I was born in the 1980s in Tehran, the capital of Iran. The first computer our family owned was a bulky PC tower powered by an Intel Pentium 200MHz MMX CPU, with 32MB of RAM, a 2.1GB hard drive, a 2MB S3 graphics card (no 3D support!), and an OPTi 931 sound card.
 
-In 2016, after having been using the Microsoft technology stack for more than a
-decade, I decided to try new stacks. As a result, I started learning and using
-Python programming language while switching to Linux OS. After maybe 3 months
-these became my main stack! I moved completely from Windows to
-[ArchLinux](https://www.archlinux.org/) and developed all of my projects using
-Python as the programming language and PostgreSQL as my main database engine of
-choice.
+At the time, MS-DOS was the primary operating system, though we could also run Windows 3.1 — a graphical shell rather than a full OS, since it lacked a bootloader. I mainly used the PC for gaming and listening to music, while my older sister, who had actually bought the machine, used it for drafting construction plans in AutoCAD.
 
-My preferred text editors of choice <s>are VSCode and</s> is [neo]vim. I was
-using VSCode because vim doesn't provide good support for RTL languages such as
-Persian. Feel free to check out my
-[dotfiles](https://github.com/ramezanpour/dotfiles) on GitHub.
+My first taste of programming came during high school, when I visited a relative studying at Sharif University of Technology. He introduced me to QBasic, and together we wrote my very first program:
 
-Last but not least, this blog is proudly powered by
-[Jekyll](https://jekyllrb.com/) and hosted on [Github
-Pages](https://pages.github.com).
+```vb
+INT i
+FOR i = 1 TO 16
+    COLOR i
+    PRINT i
+NEXT i
+END
+```
+
+This simple script printed the number `i` in all 16 colors supported by MS-DOS:
+
+![QBasic Screenshot](/assets/images/qbasic-screenshot.png)
+
+At 17, I landed my first engineering job in a small firm in Tehran as a classic ASP developer. Since I was already familiar with Visual Basic, picking up ASP (which supported `VBScript`) came naturally. Unfortunately, I had to leave the role after nine months due to being under the legal working age of 18.
+
+Around that time, Microsoft released the .NET framework. I jumped on board right away. With VB.NET being a supported language, I quickly became comfortable with the platform. After turning 18, I joined another company that built custom software solutions. During this period, I also learned C#, which was heavily promoted by Microsoft and rapidly growing in popularity.
+
+I spent nearly a decade working as a .NET developer before realizing I needed a new challenge. I explored C and C++, building small personal projects, but breaking into professional C++ development proved to be a challenge. That’s when I turned to Python — a language that struck the right balance between practicality and power. Since then, I’ve been working full-time as a Python engineer.
+
+Beyond coding, I enjoy reading, running, and playing video games.
