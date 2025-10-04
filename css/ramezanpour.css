@@ -180,8 +180,11 @@ blockquote {
   border-radius: 50%;
 }
 
+.home-sub-section {
+  margin-top: 50px;
+}
 .home-sub-section h3 {
-  border-bottom: 1px solid var(--second);
+  border-bottom: 1px solid var(--code);
   padding-bottom: 10px;
 }
 
@@ -194,16 +197,6 @@ blockquote {
   color: #777;
   display: block;
   margin-bottom: 5px;
-}
-
-.home-sub-section .useful-links {
-  float: right;
-  width: 49.5%;
-}
-
-.home-sub-section .useful-links a {
-  display: block;
-  padding: 5px 0px;
 }
 
 .comment-form input,

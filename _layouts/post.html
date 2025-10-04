@@ -14,6 +14,106 @@
           </header>
           <div class="content">{{ content }}</div>
         </article>
+        <div class="share-buttons" style="margin: 24px 0">
+          <span>Share:</span>
+          <a
+            href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}"
+            target="_blank"
+            rel="noopener"
+            title="Share on X"
+          >
+            <img
+              src="/assets/x.svg"
+              alt="X"
+              style="
+                height: 24px;
+                width: 24px;
+                margin: 0 4px;
+                vertical-align: middle;
+              "
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+            target="_blank"
+            rel="noopener"
+            title="Share on Facebook"
+          >
+            <img
+              src="/assets/facebook.svg"
+              alt="Facebook"
+              style="
+                height: 24px;
+                width: 24px;
+                margin: 0 4px;
+                vertical-align: middle;
+              "
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}"
+            target="_blank"
+            rel="noopener"
+            title="Share on LinkedIn"
+          >
+            <img
+              src="/assets/linkedin.svg"
+              alt="LinkedIn"
+              style="
+                height: 24px;
+                width: 24px;
+                margin: 0 4px;
+                vertical-align: middle;
+              "
+            />
+          </a>
+          <a
+            href="mailto:?subject={{ page.title }}&body={{ site.url }}{{ page.url }}"
+            title="Share by Email"
+          >
+            <img
+              src="/assets/email.svg"
+              alt="Email"
+              style="
+                height: 24px;
+                width: 24px;
+                margin: 0 4px;
+                vertical-align: middle;
+              "
+            />
+          </a>
+          <a href="#" onclick="shareNative(event)" title="More sharing options">
+            <img
+              src="/assets/share.svg"
+              alt="Share"
+              style="
+                height: 24px;
+                width: 24px;
+                margin: 0 4px;
+                vertical-align: middle;
+              "
+            />
+          </a>
+        </div>
+        <script>
+          async function shareNative(e) {
+            e.preventDefault();
+            if (navigator.share) {
+              try {
+                await navigator.share({
+                  title: "{{ page.title }}",
+                  url: "{{ site.url }}{{ page.url }}",
+                });
+              } catch (err) {
+                if (err.name !== "AbortError") {
+                  console.error("Error sharing:", err);
+                }
+              }
+            } else {
+              alert("Native sharing is not supported on this browser");
+            }
+          }
+        </script>
         <h2>Comments</h2>
         <div id="currentComments"></div>
         <h2>Add your comment</h2>
