@@ -78,6 +78,8 @@ a:hover {
   word-wrap: break-word;
   line-height: 140%;
   hyphens: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 110%;
 }
 
 .home h1 {
