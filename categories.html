@@ -6,12 +6,12 @@ title: Categories
 
 {% for category in site.categories %} {% capture category_name %}{{ category |
 first }}{% endcapture %}
-<h2 id="{{ category_name | slugize }}">
-  {{ category_name | capitalize }}
-</h2>
+<h2 id="{{ category_name | slugize }}">{{ category_name | capitalize }}</h2>
 <article class="category-items">
-  {% for post in site.categories[category_name] %}
-  <a href="{{ post.url | relative_url }}">{{post.title}}</a>
-  {% endfor %}
+  <ul>
+    {% for post in site.categories[category_name] %}
+    <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
+    {% endfor %}
+  </ul>
 </article>
 {% endfor %}
