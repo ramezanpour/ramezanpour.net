@@ -6,7 +6,7 @@ categories: life productivity
 ---
 
 ![PC Plug](/assets/images/pc_plug.jpg)
-<em>Image by <a href="https://pixabay.com/users/ds_30-1795490/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4875313">Dmitriy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4875313">Pixabay</a></em>
+<em class="small">Image by <a href="https://pixabay.com/users/ds_30-1795490/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4875313">Dmitriy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4875313">Pixabay</a></em>
 
 Last week I wrote about the fact that people were more productive when we moved from [wired connections to wireless]({% post_url 2025-10-06-when-life-was-wired-and-we-were-happier %}).
 
@@ -19,10 +19,10 @@ Besides the distraction that wireless devices can create, being wired has other 
 
 When you read productivity books, they all emphasize that to be productive, one should focus on a few key things:
 
-- Focus on one thing at a time —> from “Deep Work” by Cal Newport
-- Avoid distractions —> from “Indistractable” by Nir Eyal
-- Get a good amount of sleep —> from “Why We Sleep” by Matthew Walker
-- Be more active throughout the day —? from “Atomic Habits” by James Clear
+- Focus on one thing at a time -> from “Deep Work” by Cal Newport
+- Avoid distractions -> from “Indistractable” by Nir Eyal
+- Get a good amount of sleep -> from “Why We Sleep” by Matthew Walker
+- Be more active throughout the day -> from “Atomic Habits” by James Clear
 
 You see, just by being wired, one can naturally live a better, more productive life.
 
