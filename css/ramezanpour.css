@@ -3,7 +3,6 @@
 
 /* Font imports */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Literata:ital,wght@0,400;0,700;1,400&display=swap");
-
 :root {
   --first: #2563eb;
   --second: #3b82f6;
@@ -132,6 +131,9 @@ a:hover {
   font-family: "Literata", Georgia, "Times New Roman", Times, serif;
   font-size: 108%;
 }
+.content .small {
+  font-size: small;
+}
 
 .home h1 {
   font-size: 250%;
@@ -189,10 +191,6 @@ h1 a:hover {
   margin-bottom: 1.25em;
 }
 
-.content em {
-  font-size: small;
-}
-
 .content pre {
   padding: 20px;
   border-radius: 8px;
@@ -218,9 +216,7 @@ code {
 
 article footer {
   color: var(--gray);
-  margin-top: 30px;
   padding-top: 20px;
-  border-top: 1px solid var(--border);
 }
 
 footer.main-footer {
@@ -236,11 +232,6 @@ footer.main-footer {
   border-bottom: 2px solid var(--border);
   margin-bottom: 40px;
   padding-bottom: 30px;
-  transition: transform 0.2s ease;
-}
-
-.blog .post:hover {
-  transform: translateX(5px);
 }
 
 blockquote {

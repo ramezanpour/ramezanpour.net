@@ -16,7 +16,7 @@ Some might argue that these are actually good things — that life has become ea
 You can already see how robotic we’ve become. Walk through any city centre around 6 p.m., when people are heading home from work. It doesn’t matter which city you’re in — many people wear noise-cancelling headphones, eyes glued to their phones. They barely speak to anyone. They prefer to stay in their own little worlds.
 
 ![People checking their phone while they are in the train](/assets/images/hugh-han-people-checking-phone-when-in-train.jpg)
-<em>Photo by [Hugh Han](https://unsplash.com/@hughhan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/people-inside-train-5pkYWUDDthQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)</em>
+<em class="small">Photo by [Hugh Han](https://unsplash.com/@hughhan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/people-inside-train-5pkYWUDDthQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)</em>
 
 The side effects of such behaviour are now surfacing. In his book **The Anxious Generation**, [Jonathan Haidt](https://jonathanhaidt.com/) shows how social media has had a devastating effect on young people, especially teenagers. According to studies cited in the book, phone-based childhoods have led to significantly higher suicide rates. Among girls, the rate has increased by **167%**, and among boys by **91%** between 2010 and 2021.
 
