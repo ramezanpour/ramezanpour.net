@@ -1,7 +1,7 @@
 ---
 title: The best one is the one that works for you
 layout: post
-date: 2025-10-19 23:00
+date: 2025-10-19 22:00
 categories: life productivity
 ---
 
