@@ -285,6 +285,7 @@ blockquote {
   display: block;
   padding: 14px 0;
   transition: color 0.2s ease;
+  font-size: 125%;
 }
 
 .home-sub-section .latest-post-item:hover {
