@@ -21,20 +21,17 @@ company?** So, I did a quick back-of-the-envelope calculation.
 > [Levels.fyi](https://levels.fyi) and **do not represent any confidential or internal company information**. The
 > example company (Amazon) is used only for reference, and the calculations are approximate.
 
-Using Levels.fyi, I looked up the average salary for each role represented in the meeting. There were four Senior Data
-Scientists, one Senior Product Manager, one Engineering Manager, one Data Science Manager, one Senior Software Engineer,
-one Senior Data Analyst, and one Product Performance Manager. According to the site, here are the average salaries for
-each role at Amazon:
+Using Levels.fyi, I looked up the average salary for each role represented in the meeting. There were five Senior
+Software Engineer, one Senior Product Manager, two Engineering Manager, one Senior Data Analyst, and one Product
+Performance Manager. According to the site, here are the average salaries for each role at Amazon:
 
-| Job                           | Annual Salary | Hourly Salary |
-| ----------------------------- | ------------- | ------------- |
-| Senior Data Scientist (DS II) | ~237,000€     | ~119€         |
-| Senior Product Manager        | ~96,000€      | ~48€          |
-| Engineering Manager           | ~404,000€     | ~202€         |
-| Data Science Manager          | ~219,000€     | ~109€         |
-| Senior Data Analyst           | ~100,000€     | ~50€          |
-| Senior Software Engineer      | ~254,000€     | ~127€         |
-| Product Performance Manager   | ~90,000€      | ~45€          |
+| Job                         | Annual Salary | Hourly Salary |
+| --------------------------- | ------------- | ------------- |
+| Senior Product Manager      | ~96,000€      | ~48€          |
+| Engineering Manager         | ~404,000€     | ~202€         |
+| Senior Data Analyst         | ~100,000€     | ~50€          |
+| Senior Software Engineer    | ~254,000€     | ~127€         |
+| Product Performance Manager | ~90,000€      | ~45€          |
 
 A bit of math revealed that a one-hour call costs around **700€**.  
 If this meeting happens weekly — assuming 52 weeks a year and 5 cancellations — that’s 47 meetings per year. That’s
