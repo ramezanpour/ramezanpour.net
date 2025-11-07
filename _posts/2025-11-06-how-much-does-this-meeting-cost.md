@@ -22,7 +22,7 @@ company?** So, I did a quick back-of-the-envelope calculation.
 > example company (Amazon) is used only for reference, and the calculations are approximate.
 
 Using Levels.fyi, I looked up the average salary for each role represented in the meeting. There were five Senior
-Software Engineer, one Senior Product Manager, two Engineering Manager, one Senior Data Analyst, and one Product
+Software Engineer, one Senior Product Manager, two Engineering Managers, one Senior Data Analyst, and one Product
 Performance Manager. According to the site, here are the average salaries for each role at Amazon:
 
 | Job                         | Annual Salary | Hourly Salary |
