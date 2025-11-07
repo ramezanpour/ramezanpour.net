@@ -12,7 +12,7 @@ Distel</a> on
 </small></em>
 
 We, as managers, attend a lot of meetings every day. I’ve had days with more than ten meetings, most of which were
-titled something like _"... Office Hours"_, _"... Alignment"_, _"... Sync"_, or _"... Weekly"_.
+titled something like _"... All-Hands"_, _"... Alignment"_, _"... Sync"_, or _"... Weekly"_.
 
 While I was sitting in one of those meetings, a question came to mind: **How much does this meeting cost for the
 company?** So, I did a quick back-of-the-envelope calculation.
