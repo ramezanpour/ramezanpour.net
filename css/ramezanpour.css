@@ -2,7 +2,7 @@
 @import "highlight-dark.css" (prefers-color-scheme: dark);
 
 /* Font imports */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Literata:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&display=swap");
 :root {
   --first: #2563eb;
   --second: #3b82f6;
@@ -62,8 +62,8 @@ h6 {
   max-width: 768px;
   padding: 0 20px;
   font-size: 105%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 a {
@@ -129,7 +129,7 @@ a:hover {
   word-wrap: break-word;
   line-height: 1.75;
   hyphens: auto;
-  font-family: "Literata", Georgia, "Times New Roman", Times, serif;
+  font-family: "IBM Plex Serif", Georgia, "Times New Roman", Times, serif;
   font-size: 108%;
 }
 .content .small {
@@ -234,7 +234,7 @@ code {
   border-radius: 4px;
   padding: 4px 6px;
   font-size: 0.9em;
-  font-family: "Source Code Pro", monospace;
+  font-family: "JetBrains Mono", "Source Code Pro", "Courier New", monospace;
 }
 
 article footer {
@@ -328,8 +328,8 @@ blockquote {
   width: 100%;
   margin: 10px 0;
   border: 2px solid var(--border);
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 110%;
   padding: 12px;
   color: var(--black);
