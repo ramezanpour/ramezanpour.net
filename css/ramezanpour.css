@@ -1,5 +1,4 @@
-@import "highlight-light.css" (prefers-color-scheme: light);
-@import "highlight-dark.css" (prefers-color-scheme: dark);
+@import "highlight-light.css";
 
 /* Font imports */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&display=swap");
@@ -17,26 +16,7 @@
   --shadow-hover: rgba(0, 0, 0, 0.15);
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #0f172a;
-    color: var(--black);
-  }
 
-  :root {
-    --first: #60a5fa;
-    --second: #93c5fd;
-    --accent: #22d3ee;
-    --black: #e2e8f0;
-    --gray: #94a3b8;
-    --code: #1e293b;
-    --border: #334155;
-    --bg: #0f172a;
-    --card-bg: #1e293b;
-    --shadow: rgba(0, 0, 0, 0.3);
-    --shadow-hover: rgba(0, 0, 0, 0.5);
-  }
-}
 
 * {
   box-sizing: border-box;
@@ -195,11 +175,7 @@ h1 a:hover {
   transition: filter 0.3s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  .share-buttons img {
-    filter: invert(1);
-  }
-}
+
 
 .content img.f-right {
   display: unset;
