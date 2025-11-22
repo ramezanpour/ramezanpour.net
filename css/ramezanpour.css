@@ -3,17 +3,17 @@
 /* Font imports */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&display=swap");
 :root {
-  --first: #2563eb;
-  --second: #3b82f6;
-  --accent: #06b6d4;
-  --black: #1f2937;
-  --gray: #6b7280;
-  --code: #f3f4f6;
-  --border: #e5e7eb;
-  --bg: #ffffff;
-  --card-bg: #f9fafb;
-  --shadow: rgba(0, 0, 0, 0.1);
-  --shadow-hover: rgba(0, 0, 0, 0.15);
+  --first: #d97706;
+  --second: #f59e0b;
+  --accent: #10b981;
+  --black: #1c1917;
+  --gray: #78716c;
+  --code: #fef3c7;
+  --border: #e7e5e4;
+  --bg: #fffbeb;
+  --card-bg: #fef3c7;
+  --shadow: rgba(120, 113, 108, 0.15);
+  --shadow-hover: rgba(120, 113, 108, 0.25);
 }
 
 
