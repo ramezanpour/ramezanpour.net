@@ -33,6 +33,11 @@ _three_ of these goals, and most of the remaining items were pushed into the nex
 number of commitments put me under constant stress. As the year went on, I found myself blaming myself more and more for
 “failing” to keep up.
 
+![burnedout](/assets/images/burnedout.jpg)
+
+<em><small>Photo by Tara Winstead on
+<a href="https://www.pexels.com/photo/crumpled-papers-beside-a-laptop-8386575/">Pexels</a></small></em>
+
 We need to accept a simple reality: as humans, we have limited time and limited capacity. We all have 24 hours in a day.
 On average, we need about 8 hours of sleep. We might convince ourselves that 6 hours is enough, but that’s rarely
 sustainable and often leads to burnout. Most of us also have jobs that require 8–9 hours a day.
