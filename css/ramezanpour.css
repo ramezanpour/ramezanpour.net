@@ -1,4 +1,5 @@
 @import "highlight-light.css";
+@import url("highlight-dark.css") (prefers-color-scheme: dark);
 
 /* Font imports */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&display=swap");
@@ -24,6 +25,8 @@
 
 body {
   transition: background-color 0.3s ease;
+  background-color: var(--bg);
+  color: var(--black);
 }
 
 h1,
@@ -442,5 +445,44 @@ blockquote {
   article h1,
   .home h1 {
     font-size: 180%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --first: #f59e0b;
+    --second: #fbbf24;
+    --accent: #34d399;
+    --black: #f4f1ed;
+    --gray: #c9c4be;
+    --code: #201f24;
+    --border: #2f2b2a;
+    --bg: #151417;
+    --card-bg: #222026;
+    --shadow: rgba(0, 0, 0, 0.5);
+    --shadow-hover: rgba(0, 0, 0, 0.7);
+  }
+
+  body {
+    background-image: radial-gradient(circle at 15% 10%, rgba(245, 158, 11, 0.08), transparent 45%),
+      radial-gradient(circle at 85% 20%, rgba(52, 211, 153, 0.07), transparent 50%),
+      linear-gradient(180deg, #151417 0%, #19181d 55%, #1b1a20 100%);
+    background-attachment: fixed;
+  }
+
+  .comment-info-banner-success {
+    background-color: #064e3b;
+    color: #d1fae5;
+    border-color: #10b981;
+  }
+
+  .comment-info-banner-fail {
+    background-color: #7f1d1d;
+    color: #fee2e2;
+    border-color: #ef4444;
+  }
+
+  .share-buttons img {
+    filter: invert(1);
   }
 }
