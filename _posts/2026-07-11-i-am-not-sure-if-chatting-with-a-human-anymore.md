@@ -1,5 +1,5 @@
 ---
-title: I'm not sure if I'm talking with humans anymore
+title: I'm not sure if I'm chatting with humans anymore
 layout: post
 date: 2026-07-24
 categories: thoughts
