@@ -5,6 +5,11 @@ date: 2026-07-24
 categories: thoughts
 ---
 
+![Interaction with a robot](/assets/images/interaction-with-robot.jpg) <em><small>Photo by <em><small>Photo by
+<a href="https://unsplash.com/@katjaano?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katja
+Ano</a> on
+<a href="https://unsplash.com/photos/a-person-holding-a-robotic-hand-in-front-of-a-mirror-_7ceGXTAtyQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small></em>
+
 Since the beginning of the year, the use of LLMs has increased significantly, not only in coding and software
 engineering but also in product management, consulting, and many other fields. From LLMs to agents to specialised AI
 skills, the technology is evolving at an incredible pace.
