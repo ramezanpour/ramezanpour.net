@@ -1,0 +1,25 @@
+---
+layout: page
+title: Photos
+permalink: /photos/
+---
+
+{% assign photos = site.posts | where_exp: "post", "post.images" %}
+{% if photos.size == 0 %}
+<p>No photos yet — check back soon.</p>
+{% else %}
+<div class="photo-grid">
+  {% for post in photos %}
+  <a class="photo-grid-item" href="{{ post.url | relative_url }}">
+    <img
+      src="{{ post.images[0] }}"
+      alt="{{ post.title | default: post.description | strip_html }}"
+      loading="lazy"
+    />
+    {% if post.images.size > 1 %}
+    <span class="photo-grid-badge" title="Multiple photos">&#9635;</span>
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+{% endif %}

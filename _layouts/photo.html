@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">{% include menu.html %}</div>
+      <div class="post photo-entry">
+        <article>
+          {% if page.title %}<h1 class="photo-title">{{ page.title }}</h1>{% endif %}
+          <div class="content photo-description">{{ content }}</div>
+          {% assign photos = page.images | default: page.image %}
+          {% if page.images and page.images.size > 1 %}
+          <div class="carousel" data-index="0">
+            <div class="carousel-track">
+              {% for img in page.images %}
+              <div class="carousel-slide">
+                <img
+                  src="{{ img }}"
+                  alt="{{ page.title | default: page.description | strip_html }}"
+                  loading="lazy"
+                />
+              </div>
+              {% endfor %}
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous photo">
+              &#8249;
+            </button>
+            <button class="carousel-btn next" aria-label="Next photo">
+              &#8250;
+            </button>
+            <div class="carousel-dots">
+              {% for img in page.images %}
+              <span class="carousel-dot"></span>
+              {% endfor %}
+            </div>
+          </div>
+          {% else %}
+          <div class="photo-single">
+            <img
+              src="{% if page.images %}{{ page.images[0] }}{% else %}{{ page.image }}{% endif %}"
+              alt="{{ page.title | default: page.description | strip_html }}"
+            />
+          </div>
+          {% endif %}
+
+          <div class="photo-meta">
+            <span class="photo-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+            {% if page.location %}
+            <span class="photo-location">&middot; {{ page.location }}</span>
+            {% endif %}
+          </div>
+
+        </article>
+        {% include comments.html %}
+      </div>
+      {% include footer.html %}
+    </div>
+
+    <script>
+      document.querySelectorAll(".carousel").forEach((carousel) => {
+        const track = carousel.querySelector(".carousel-track");
+        const slides = carousel.querySelectorAll(".carousel-slide");
+        const dots = carousel.querySelectorAll(".carousel-dot");
+        const prev = carousel.querySelector(".prev");
+        const next = carousel.querySelector(".next");
+        let index = 0;
+
+        function update() {
+          track.style.transform = `translateX(-${index * 100}%)`;
+          dots.forEach((d, i) => d.classList.toggle("active", i === index));
+          prev.style.visibility = index === 0 ? "hidden" : "visible";
+          next.style.visibility =
+            index === slides.length - 1 ? "hidden" : "visible";
+        }
+
+        function go(i) {
+          index = Math.max(0, Math.min(slides.length - 1, i));
+          update();
+        }
+
+        prev.addEventListener("click", () => go(index - 1));
+        next.addEventListener("click", () => go(index + 1));
+        dots.forEach((dot, i) => dot.addEventListener("click", () => go(i)));
+
+        // Swipe support
+        let startX = 0;
+        track.addEventListener(
+          "touchstart",
+          (e) => (startX = e.touches[0].clientX),
+          { passive: true }
+        );
+        track.addEventListener("touchend", (e) => {
+          const dx = e.changedTouches[0].clientX - startX;
+          if (Math.abs(dx) > 40) go(dx < 0 ? index + 1 : index - 1);
+        });
+
+        // Keyboard support
+        carousel.setAttribute("tabindex", "0");
+        carousel.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowLeft") go(index - 1);
+          if (e.key === "ArrowRight") go(index + 1);
+        });
+
+        update();
+      });
+    </script>
+  </body>
+</html>
