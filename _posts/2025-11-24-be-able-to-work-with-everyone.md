@@ -3,6 +3,7 @@ title: "The Soft Skill Every Manager Needs: Working With Everyone"
 layout: post
 date: 2025-11-24
 categories: Management
+description: "Why the ability to work with everyone, especially product managers, is the underrated soft skill every engineering manager needs."
 ---
 
 Technical capabilities are important for any competent engineer or engineering manager. With strong technical skills,

@@ -3,6 +3,8 @@ title: I love Vim too but ...
 categories: musing linux
 date: 2020-02-19 10:50
 layout: post
+description: "Vim is a fantastic editor, but it isn't perfect. My honest take on Vim's strengths, its plugins, and the things that still frustrate me."
+image: /assets/images/old_computer_16mb_ram.jpg
 ---
 
 Vim is a great text editor. It is actually one of the most popular ones among developers and nerds especially if they have experience working with Unix-like operation systems. Most people instantly fall in love with Vim’s key bindings and the philosophy behind its mindset. It allows you to do almost anything without using the mouse.

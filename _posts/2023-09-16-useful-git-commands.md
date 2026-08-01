@@ -3,6 +3,7 @@ title: Five useful git commands & options that are not being used often
 layout: post
 date: 2023-09-16 12:00:00
 categories: git
+description: "Five genuinely useful git commands and options that most engineers never use in their day-to-day work, but really should."
 ---
 
 `git` changed the way we all think of a source control program. It's simple yet powerful with a lot of features and capabilities; however, I see software engineers use only a handful of its commands in their day-to-day work. So, in this post, I would like to mention some git commands and options that are not being used so often but are very useful.

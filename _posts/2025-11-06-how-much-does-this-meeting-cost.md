@@ -3,6 +3,8 @@ title: How Much Does This Meeting Cost?
 layout: post
 date: 2025-11-06
 categories: management
+description: "A back-of-the-envelope look at how much your daily meetings actually cost the company, using publicly available salary data."
+image: /assets/images/all-hands-meeting.jpg
 ---
 
 ![All Hands Meeting](/assets/images/all-hands-meeting.jpg) <em><small>Photo by

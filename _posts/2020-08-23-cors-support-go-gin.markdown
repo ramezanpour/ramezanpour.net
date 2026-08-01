@@ -2,6 +2,7 @@
 title: How to enable CORS support in Gin
 date: 2020-08-23 00:00
 categories: programming golang gin
+description: "A quick guide to enabling CORS support in the Go Gin framework so your web front-end can safely talk to your REST API."
 ---
 It's about 3 months that I'm trying to do some real work in Go and my HTTP framework of choice is [Gin](https://gin-gonic.com/){:target="blank"}.
 

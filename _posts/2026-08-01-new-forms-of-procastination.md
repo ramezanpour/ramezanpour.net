@@ -3,6 +3,8 @@ title: Productive Procrastination
 layout: post
 date: 2026-08-01
 categories: thoughts
+description: "Procrastination can disguise itself as productivity, from endless RFCs to needless meetings. How to spot productive procrastination."
+image: /assets/images/procrastination_by_reading.jpg
 ---
 
 ![Procrastination by reading](/assets/images/procrastination_by_reading.jpg)

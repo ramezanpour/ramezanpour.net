@@ -3,6 +3,8 @@ title: I'm not sure if I'm chatting with humans anymore
 layout: post
 date: 2026-07-24
 categories: thoughts
+description: "As LLMs spread across coding, product, and consulting, I explore the unsettling feeling of no longer knowing if I'm talking to a human."
+image: /assets/images/interaction-with-robot.jpg
 ---
 
 ![Interaction with a robot](/assets/images/interaction-with-robot.jpg) <em><small>Photo by <em><small>Photo by

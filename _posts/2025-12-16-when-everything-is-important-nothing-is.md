@@ -3,6 +3,8 @@ title: When Everything Is Important, Nothing Matters
 layout: post
 date: 2025-12-16
 categories: productivity
+description: "Why our ever-growing lists of yearly goals rarely get done, and how trying to do everything means accomplishing nothing."
+image: /assets/images/burnedout.jpg
 ---
 
 As we approach the end of the year, many people start thinking about their next steps for 2026. There are so many things

@@ -3,6 +3,8 @@ title: Everybody is talking dark right now; so here's my dark preferences
 date: 2020-02-26 11:57
 category: musing
 layout: post
+description: "Dark mode is everywhere. Here are my personal dark-theme preferences across macOS, iOS, editors, and the tools I use every day."
+image: /assets/images/dracula_theme_preview.png
 ---
 
 During the last few years, dark themes are getting more and more popular and everybody is turning the lights off. Operating systems introduced dark mode, text editors' and IDEs' default color schema are dark now. Some websites like Twitter and Reddit now have _Switch to dark mode_ setting.

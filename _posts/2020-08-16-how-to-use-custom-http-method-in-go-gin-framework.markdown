@@ -3,6 +3,7 @@ title: How to use custom HTTP methods in Go Gin framework
 date: 2020-08-16 12:00
 layout: post
 categories: golang programming gin
+description: "How to define and handle custom HTTP methods like LIST or LOGIN in RESTful APIs built with Go's Gin framework."
 ---
 
 The [Gin framework](https://gin-gonic.com/){:target="blank"} is probably the most popular Go framework for creating RESTful APIs. It lets you create a web app in a matter of minutes.

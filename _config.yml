@@ -25,6 +25,23 @@ description: >-
   Also a bookworm, math lover, physics enthusiast.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ramezanpour.net" # the base hostname & protocol for your site, e.g. http://example.com
+lang: en_US
+
+# Used by jekyll-seo-tag for author/organization structured data (schema.org)
+author:
+  name: Mohammad M. Ramezanpour
+
+logo: /assets/images/me.jpg # square-ish image; used in JSON-LD publisher/author
+image: /assets/images/me.jpg # default social-share (og:image) fallback
+
+twitter:
+  card: summary_large_image
+
+social:
+  name: Mohammad M. Ramezanpour
+  links:
+    - https://linkedin.com/in/ramezanpour
+    - https://www.goodreads.com/ramezanpour
 
 plugins:
   - jekyll-feed

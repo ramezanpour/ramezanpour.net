@@ -3,6 +3,7 @@ title: How to correct typos in VS code
 layout: post
 date: 2020-04-14 12:30
 categories: programming
+description: "How to add spell checking to Visual Studio Code with the Code Spell Checker extension, including support for camelCase identifiers."
 ---
 
 This #StayAtHome trend has given me enough time (more than enough actually) to try out new things; from [changing my development fonts]({% post_url 2020-04-05-fira-code-the-font-for-programming %}) after 6 years, or to try out [new themes]({% post_url 2020-02-26-everybody-is-talking-dark-right-now %}).

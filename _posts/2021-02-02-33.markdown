@@ -3,6 +3,8 @@ title: 33
 layout: post
 date: 2021-02-02 19:34:20 +03:30
 categories: personal
+description: "A personal reflection on turning 33, moving abroad with my family, and the new doors this big life change is opening."
+image: /assets/images/33.jpg
 ---
 
 ![33](/assets/images/33.jpg){:style="display: block; margin: 0px auto;"}

@@ -3,6 +3,8 @@ title: Let's Focus on Things You Can Control
 layout: post
 date: 2025-11-22
 categories: Life
+description: "Three simple questions from 'The 7 Habits of Highly Effective People' to stop worrying about things outside your control."
+image: /assets/images/Circles-of-Control.png
 ---
 
 News websites — and certain people — can make you worry about everything. The moment you open a news site or talk to

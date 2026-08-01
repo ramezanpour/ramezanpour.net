@@ -3,6 +3,8 @@ title: Best things to do during home quarantine
 date: 2020-03-16 1:21
 categories: productivity
 layout: post
+description: "Stuck at home during the COVID-19 lockdown? Here are meaningful things you can do to stay productive, keep learning, and stay sane."
+image: /assets/images/corona_virus_microscope.jpg
 ---
 
 [COVID-19](https://en.wikipedia.org/wiki/Coronavirus_disease_2019), the virus that put the world on hold. It's spread all over the world and about 130 countries are currently dealing with it. Most companies are urging their employees to stay home or work remotely if possible. According to [the worldometers website](https://www.worldometers.info/coronavirus/#countries) which is a verified source, there are currently more than 170,000 cases worldwide and the number is growing dramatically fast.

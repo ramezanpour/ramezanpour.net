@@ -3,6 +3,8 @@ title: "Dopamine Detox: Harder Than I Thought, Better Than I Expected"
 layout: post
 date: 2025-12-11
 categories: productivity
+description: "A month-long dopamine detox turned out far harder than expected. Here's what I gave up and what the first difficult days taught me."
+image: /assets/images/social-media-harm-mental-health.jpg
 ---
 
 In a world where everything is digitalised and every direction you look offers a tiny hit of dopamine, doing the

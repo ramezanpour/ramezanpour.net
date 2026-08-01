@@ -3,6 +3,8 @@ title: How to fix VSCode's Go extension high CPU usage
 date: 2020-08-07 05:00
 categories: programming golang
 layout: post
+description: "A practical fix for the high CPU usage caused by the VS Code Go extension when working with Go modules."
+image: /assets/images/gocode-high-cpu-load.png
 ---
 
 Writing Go code could be much easier if you use an IDE or text-editor plugin. Fortunately, there are some very good plugins for my text-editors of choice:

@@ -3,6 +3,8 @@ title: Book Review - The Subtle Art of Not Giving a Fu*k
 date: 2020-03-06 19:07
 categories: book review productivity
 layout: post
+description: "My review of Mark Manson's 'The Subtle Art of Not Giving a F*ck' and why it stands out among the crowded self-development shelf."
+image: /assets/images/subtle_art_of_not_giving_a_f.jpg
 ---
 
 ![The subtle art of not giving a f*ck](/assets/images/subtle_art_of_not_giving_a_f.jpg){:class="f-right"}

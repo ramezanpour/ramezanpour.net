@@ -3,6 +3,7 @@ title: I am starting to like Golang
 date: 2020-08-04 19:00
 categories: programming golang
 layout: post
+description: "Coming from years of Python, here's what surprised me about Go's learning curve and the things that are making me fall for the language."
 ---
 
 Lock down during COVID-19 pandemic continues and we have no choice but to stay home. Although we have missed lots things, it gives us the opportunity to learn and read more.

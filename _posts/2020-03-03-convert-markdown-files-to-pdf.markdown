@@ -3,6 +3,8 @@ title: How to convert markdown files to PDF?
 date: 2020-03-03 10:50
 layout: post
 categories: review
+description: "How to convert Markdown files to PDF and lint them right inside VS Code, using two of my favourite Markdown extensions."
+image: /assets/images/markdownlint_live_preview.png
 ---
 
 Markdown is the markup language I got really interested in recently and I use it everywhere from generating the content of this blog to simple documents such as letters and GitHub `README` files and wikis.

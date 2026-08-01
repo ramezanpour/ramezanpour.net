@@ -3,6 +3,7 @@ title: Different ways to split a string in C++
 layout: post
 date: 2020-02-11 23:33
 categories: programming c++
+description: "Several practical ways to split a string by a delimiter in C++, from the classic C approach to the modern C++ standard library."
 ---
 
 All high-level programming languages provide a large amount of functions for strings manipulation and splitting is one of the most useful ones. Here are some example of how to perform a string split in Python and C# programming languages:

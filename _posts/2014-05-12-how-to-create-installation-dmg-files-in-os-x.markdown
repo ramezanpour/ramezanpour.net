@@ -3,6 +3,8 @@ title: How to create installation DMG files in OS X
 layout: post
 date: 2014-05-12 10:00
 categories: macOS
+description: "A step-by-step guide to creating a professional installation DMG for distributing your macOS apps, using Skype as an example."
+image: /assets/images/skype_installation_dmg.jpg
 ---
 
 One of the coolest features of Mac OS in comparison with Windows is the simplicity of apps’ installation. In Windows, in most cases, there should be an installation package; otherwise, the app won’t run correctly. On the contrary, Mac apps installations are much simpler. All you need to do is to copy the app bundle to the Applications folder; so, no installation is needed. The installation process of Skype for Mac is a very good example. To install Skype you just need to drag the app icon into the Applications folder. by doing this, you’re copying the Skype app bundle to your Applications folder. The following is the Skype installation page for OS X:

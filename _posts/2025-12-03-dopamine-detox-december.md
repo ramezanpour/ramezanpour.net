@@ -3,6 +3,8 @@ title: "Dopamine Detox December: One Month to Reset Your Brain"
 layout: post
 date: 2025-12-03
 categories: productivity
+description: "Introducing Dopamine Detox December: a month to reduce overstimulation, reclaim your attention, and learn how dopamine really works."
+image: /assets/images/dopamine_brain.jpg
 ---
 
 ![Dopamine](/assets/images/dopamine_brain.jpg)

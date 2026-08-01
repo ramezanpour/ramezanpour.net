@@ -3,6 +3,8 @@ title: Configure and manage VPN connections programmatically in iOS 8
 categories: iOS programming
 layout: post
 date: 2014-08-03 14:00:00 +0330
+description: "How to configure and manage VPN connections programmatically on iOS 8 and OS X Yosemite using Apple's new Network Extension framework."
+image: /assets/images/update_provision_profile.png
 ---
 
 Connecting to VPN servers programmatically had been always an impossible task to do for developers because of Apple’s limitations.

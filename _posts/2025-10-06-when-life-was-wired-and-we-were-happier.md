@@ -3,6 +3,8 @@ title: When Life Was Wired (and We Were Happier)
 layout: post
 date: 2025-10-06 21:00
 categories: life productivity
+description: "A reflection on how wired devices and simpler technology may have made us more focused, more productive, and happier."
+image: /assets/images/hugh-han-people-checking-phone-when-in-train.jpg
 ---
 
 Looking back, I was probably among the last software engineers to buy a laptop. I stayed loyal to my desktop PC for a very long time. Before turning 23, I had a PC and a phone that could only call or text people. The phone barely had a camera. I often feel I was far more productive back then. When I talk about it with others, they say it’s because I was younger and had more energy.

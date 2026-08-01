@@ -3,6 +3,7 @@ title: Embrace the change
 layout: post
 categories: productivity
 date: 2020-02-24 12:20
+description: "A short reflection on why clinging to a single technology stack holds developers back, inspired by a funny video about a .NET-worshipping family."
 ---
 
 Last week a friend of mine sent me this video. Please take a moment and watch it (It's just 3 minutes and half):

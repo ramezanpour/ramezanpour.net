@@ -1,7 +1,6 @@
 <meta charset="utf-8" />
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1" name="viewport" />
-<title>{{ page.title }} | {{ site.title }}</title>
 <link
   rel="apple-touch-icon"
   sizes="180x180"
@@ -40,4 +39,7 @@
 <meta name="theme-color" content="#ffffff" />
 
 <link rel="stylesheet" href="{{ '/css/ramezanpour.css' | relative_url }}" /> {%
-seo %} {% feed_meta %}
+seo %} {% feed_meta %} {% unless page.image %}
+<meta property="og:image" content="{{ site.image | absolute_url }}" />
+<meta name="twitter:image" content="{{ site.image | absolute_url }}" />
+{% endunless %}

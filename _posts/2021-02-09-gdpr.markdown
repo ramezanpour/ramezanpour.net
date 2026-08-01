@@ -3,6 +3,8 @@ title: Implementing GDPR in my blog
 layout: post
 date: 2021-02-09 17:30:51 +0330
 categories: misc
+description: "How I made my Jekyll blog GDPR-compliant with a cookie notice, without adding analytics or invasive third-party tracking."
+image: /assets/images/gdpr.png
 ---
 
 ![GDPR](/assets/images/gdpr.png)

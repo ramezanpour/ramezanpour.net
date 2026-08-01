@@ -3,6 +3,8 @@ title: How Iranian software engineers are suffering from US sanctions
 date: 2020-10-27 12:00
 layout: post
 categories: misc
+description: "How US sanctions block Iranian software engineers from essential tools like GitHub, Docker Hub, and Go, and the daily toll it takes."
+image: /assets/images/golang_blocked.png
 ---
 
 Before I start, I would like to ask you to take a quick look at screenshots below:

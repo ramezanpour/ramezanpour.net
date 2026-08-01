@@ -3,6 +3,7 @@ title: Automate tmux environment creation
 layout: post
 date: 2020-12-23 15:00
 categories: linux programming
+description: "How I automate my tmux development environment setup so every terminal session starts with the windows, panes, and tools I need."
 ---
 
 As a software developer I always tend to tune my development environments. I usually do this by using and setting keyboard shortcuts and creating workflows that works best for me.

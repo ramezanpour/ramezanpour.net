@@ -3,6 +3,7 @@ title: Achievement is not always about doing more things
 layout: post
 date: 2025-03-02 15:00
 categories: musing
+description: "Why finishing your to-do list isn't the only measure of a productive day: a reflection on redefining what achievement means."
 ---
 
 A lot of people reflect on what they’ve done, either daily or weekly. I’m one of them. Every morning, I write down three things I want to accomplish that day—sometimes on paper, sometimes in a text file—and try to check them off throughout the day. Most days, I manage to complete them, but there are also days when I don’t, which is absolutely normal.

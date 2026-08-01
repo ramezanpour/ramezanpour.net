@@ -3,6 +3,8 @@ title: 2020 is coming to an end ... finally
 layout: post
 date: 2020-12-26 15:00
 categories: misc
+description: "A personal reflection on surviving 2020, a year of waiting, uncertainty, and learning to adapt while stuck at home."
+image: /assets/images/2021_is_coming.png
 ---
 
 ![2021 is coming (Photo taken from https://www.mutualventures.co.uk/public-services-in-2021/)](/assets/images/2021_is_coming.png)

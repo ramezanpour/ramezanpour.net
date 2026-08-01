@@ -3,6 +3,8 @@ title: Book Review - Atomic Habits
 layout: post
 categories: book review productivity
 date: 2020-09-18 14:00
+description: "My review of James Clear's 'Atomic Habits', a practical, science-based guide to building good habits and breaking bad ones."
+image: /assets/images/atomic_habits.jpg
 ---
 
 ![Atomic Habits](/assets/images/atomic_habits.jpg){:class="f-right"}

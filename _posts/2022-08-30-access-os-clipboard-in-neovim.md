@@ -3,6 +3,7 @@ title: How to access OS clipboard in neovim
 layout: post
 date: 2022-07-24 23:00 CET
 categories: linux neovim
+description: "How to configure Neovim to read from and write to your operating system's clipboard, so yank and paste work across every app."
 ---
 
 One of the cool things about (neo)vim is that it has its own clipboard system meaning if you copy (yank) something, you won't be able to just paste it in other apps because the clipboard is only available inside the editor. You might say this is not a good thing at all and I agree to some extend; however, in some cases it provides more flexibility.

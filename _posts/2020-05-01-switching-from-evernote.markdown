@@ -3,6 +3,7 @@ title: Switching from Evernote
 layout: post
 date: 2020-05-01 00:10
 categories: productivity
+description: "After eight years as a loyal Evernote user, I finally switched. Here are the alternatives I explored and what led to my decision."
 ---
 
 For the last 8 years or so, I have been using Evernote to take my notes and capture my ideas. I call myself a loyal customer to Evernote because I didn't move to other alternatives even after they have restricted the number of concurrent devices to two! I waited for about 5 years to see some good new features and to be honest, the only good feature they have added since the first day I started using it was dark mode. I hope I could see some other features such as right-to-left languages support or better hierarchy category structure but they haven't add any of these until now. So I decided to switch!

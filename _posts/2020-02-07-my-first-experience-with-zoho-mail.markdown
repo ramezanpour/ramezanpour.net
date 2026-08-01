@@ -3,6 +3,8 @@ title: My first experience with Zoho Mail
 layout: post
 date: 2020-02-07 16:27
 categories: review
+description: "My experience setting up free custom-domain email with Zoho Mail, and how it compares to paid providers like Office 365 and GSuite."
+image: /assets/images/zoho-mail-plans.png
 ---
 
 If you have your own domain and website, you probably want to have some _@yourdomain_ emails as well. Although some hosting providers offer free email hosting, some simply don't. You also have to configure your own mail server if you're owning a VPN or dedicated server.

@@ -3,6 +3,7 @@ title: File upload using Gin
 categories: programming golang gin
 date: 2020-09-12 00:15
 layout: page
+description: "How to receive and save uploaded files in a REST API built with Go's Gin framework, using multipart form data."
 ---
 
 This post is my third post covering concepts of [Gin](https://gin-gonic.com/){:target="blank"} , the HTTP web framework for Go. My previous post are:

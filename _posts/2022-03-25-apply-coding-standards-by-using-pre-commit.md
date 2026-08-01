@@ -2,6 +2,7 @@
 title: Apply coding standards by using pre-commit
 layout: post
 date: 2022-03-25 21:00 CET
+description: "How to enforce consistent coding standards across a team automatically using pre-commit hooks, before code ever reaches review."
 ---
 
 When working on a project in a team, it's typical that engineers' coding styles might be different.

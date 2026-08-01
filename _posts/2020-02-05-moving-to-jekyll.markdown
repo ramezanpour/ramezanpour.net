@@ -3,6 +3,7 @@ title: Moving to Jekyll
 categories: musing
 layout: post
 date: 2020-02-05 15:18:00 +0330
+description: "Why I moved my blog from BlogEngine and WordPress to the Jekyll static site generator, and what I learned after losing years of posts."
 ---
 
 When I [started this blog at 2008](https://web.archive.org/web/20080414002254/http://www.ramezanpour.net/){:target="\_blank"}, I used [BlogEngine](https://blogengine.io/){:target="\_blank"} blogging platform to publish my posts. I chose BlogEngine because it was (Or maybe is) written in .NET and I was a .NET enthusiast at that time. After a few years of blogging with The BlogEngine platform, I decided to move to WordPress. WordPress the the most popular blogging platform and I was very satisfied with it. It has a very powerful text editor and a feature-rich administrator panel.

@@ -3,6 +3,8 @@ title: We work to live and not the other way around
 layout: post
 date: 2025-10-20
 categories: life
+description: "A reminder that work is a means to build a life, not its purpose, and why society's praise for overwork is misplaced."
+image: /assets/images/man-exploring.jpg
 ---
 
 ![Man Exploring](/assets/images/man-exploring.jpg)

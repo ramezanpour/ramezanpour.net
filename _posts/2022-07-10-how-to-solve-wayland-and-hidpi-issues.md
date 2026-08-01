@@ -3,6 +3,8 @@ title: How to solve Wayland issues with HiDPI and multiple monitors
 layout: post
 date: 2022-07-24 23:00 CET
 categories: linux
+description: "How I fixed Wayland's HiDPI and per-monitor fractional scaling issues on Linux with a multi-monitor ThinkPad setup."
+image: /assets/images/wayland_fractional_sclaing.png
 ---
 
 Since I joined my current company, I had been using a 2020 Macbook Pro. To be honest, I was totally satisfied with that laptop as it was super stable. But the main reason I chose a Mac rather than Linux when I joined was because of the fact that at the time I joined the company, they were offering Dell Latidudes for Linux which are (in my opinion) not the best choices. Recently, the company announced that in addition to Dell laptops they have started to offer ThinkPad laptops for Linux users as well! So, without thinking further I requested it :)

@@ -3,6 +3,8 @@ title: 2025
 layout: post
 date: 2025-12-29
 categories: life
+description: "Looking back on 2025: a year of big changes, deeper integration in Germany, and mixed feelings about growth and belonging."
+image: /assets/images/2025.jpg
 ---
 
 ![2025](/assets/images/2025.jpg) <em><small> Photo by

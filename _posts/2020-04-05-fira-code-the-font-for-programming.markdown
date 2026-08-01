@@ -3,6 +3,8 @@ title: Fira Code - THE font for programming
 layout: post
 date: 2020-04-05 14:20
 categories: programming
+description: "Why Fira Code, with its programming ligatures, became my favourite coding font, and a look back at the monospace fonts I used before it."
+image: /assets/images/dejavu_sans_mono_font_preview.png
 ---
 
 When I started programming on a GUI-based environment, the only fixed-width fonts available were `Courier` and `Courier New`. We actually didn't have lots of options to choose from. You may laugh at me but after 2 years of programming, I realized I can change the font size of Visual Studio IDE. In 2007, Microsoft introduced another moonscape font named `Consolas`. The font was much better and had better support anti-aliasing.

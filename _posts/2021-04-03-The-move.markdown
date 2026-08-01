@@ -3,6 +3,8 @@ title: The move
 layout: post
 date: 2021-04-03 22:34:41+1:00CET
 categories: personal
+description: "The story of leaving Iran to build a new life in Germany: the risks, the challenges, and why some changes are worth taking."
+image: /assets/images/berlin-city.jpeg
 ---
 
 ![Berlin. Photo taken from: https://strongcitiesnetwork.org/en/wp-content/uploads/sites/5/2017/11/Berlin-Nikolaiviertel-scaled.jpg](/assets/images/berlin-city.jpeg)

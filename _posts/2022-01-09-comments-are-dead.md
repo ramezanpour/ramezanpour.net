@@ -3,6 +3,7 @@ title: Updates to my blog including shutting the comment section down
 date: 2022-01-09 18:00
 categories: musing
 layout: post
+description: "Why I decided to shut down my blog's comment section after ten years with Disqus, along with other updates to the site."
 ---
 
 For almost 10 years, I have been using the [Disqus](https://disqus.com) comment management system to manage my posts'

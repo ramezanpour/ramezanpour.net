@@ -3,6 +3,7 @@ title: A geeky/minimal way to do journaling
 layout: post
 date: 2021-02-09 00:03:09 +0330
 categories: productivity
+description: "My geeky, minimal approach to daily journaling using plain text and simple tools, after years with Evernote and Apple Notes."
 ---
 
 I started journaling on a regular basis around 3 years ago. Even before that, I always did my best to stay organized especially about my notes. As you may know, I've been using [Evernote](https://evernote.com){:target="\_blank"} for around 8 years but near a year ago, I decided to [move from Evernote to Apple Notes]({% post_url 2020-05-01-switching-from-evernote %}) because Evernote didn't support many features like right-to-left (I'm not sure if it now supports RTL or not).

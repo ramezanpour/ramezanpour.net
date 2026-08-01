@@ -3,6 +3,8 @@ title: Authentic discussions happen actually in the comments
 layout: post
 date: 2025-02-23 20:00
 categories: musing
+description: "Inspired by Cal Newport and Scott Hanselman, a reflection on why blog comments host more authentic discussion than social media."
+image: /assets/images/bread_baking_first_last_image.jpg
 ---
 
 I was reading Cal Newport’s new blog post [Back to the (Internet) Future](https://calnewport.com/back-to-the-internet-future/), and I found it super valuable. It reminded me of the days when social media platforms like Twitter (X) and Instagram weren’t as popular, and people actually took the time to read. In his post, Newport argues that conversations happening through blog posts or articles are usually more authentic and meaningful.

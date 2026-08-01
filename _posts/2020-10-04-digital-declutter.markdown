@@ -3,6 +3,7 @@ title: Digital declutter for a month
 layout: post
 categories: productivity
 date: 2020-10-04 15:00
+description: "My experience doing Cal Newport's 30-day digital declutter from 'Digital Minimalism', and how it started to change my lifestyle."
 ---
 
 About a month ago, I finished the [Cal Newport](https://www.calnewport.com/){:target="blank"}'s valuable book "Digital Minimalism" and it's actually changing my lifestyle! This book is a MUST read for everyone who is using the social media and entertainment online services such not just because of the materials and contents they provide but because after reading it I realized that we are waisting the most precious thing we have like never before; our life time! I will definitely go for a full review of this book in future. For now, I just wanted to share my own experience about the process.

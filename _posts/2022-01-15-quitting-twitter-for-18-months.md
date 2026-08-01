@@ -3,6 +3,8 @@ title: It's now around 18 months that I have quit Twitter
 date: 2022-01-15 16:00
 categories: productivity
 layout: post
+description: "Eighteen months after quitting Twitter and Facebook, here's what I gained, and why social media's downsides outweigh its perks."
+image: /assets/images/no-social-media.jpg
 ---
 
 I think I was one of the firsts among software engineers who started using Twitter in Iran back in 2007-2008; however, I

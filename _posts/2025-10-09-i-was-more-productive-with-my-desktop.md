@@ -3,6 +3,8 @@ title: I was more productive when I had a desktop
 layout: post
 date: 2025-10-09 19:00
 categories: life productivity
+description: "Why being tethered to a desktop made me more productive: the hidden benefits of wired devices over wireless convenience."
+image: /assets/images/pc_plug.jpg
 ---
 
 ![PC Plug](/assets/images/pc_plug.jpg)

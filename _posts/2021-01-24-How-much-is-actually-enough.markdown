@@ -3,6 +3,8 @@ title: How much resources are actually enough?
 layout: post
 date: 2021-01-24 10:03:02
 categories: productivity
+description: "A Reddit post about a 128GB laptop made me ask: how much computing power do we actually need? A reflection on what 'enough' means."
+image: /assets/images/reddit_upgrade_128gb.jpg
 ---
 
 Yesterday I came across this post on Reddit in which a person shows that he has upgraded his **_laptop's_** RAM to 128GB and its storage to 12TB!

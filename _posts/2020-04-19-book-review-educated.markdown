@@ -3,6 +3,8 @@ title: Book Review - Educated
 categories: book review
 date: 2020-04-19 13:00
 layout: post
+description: "My review of Tara Westover's memoir 'Educated', one of the best books I've ever read, and why its true story feels stranger than fiction."
+image: /assets/images/educated_cover.jpg
 ---
 
 ![Educated](/assets/images/educated_cover.jpg){:class="f-right"}

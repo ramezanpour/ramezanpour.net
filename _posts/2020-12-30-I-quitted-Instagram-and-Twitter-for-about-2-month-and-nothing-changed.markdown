@@ -3,6 +3,7 @@ title: I quitted Instagram and Twitter for about two months and nothing changed
 layout: post
 date: 2020-12-30 12:36:18 +0330
 categories: productivity
+description: "I quit Instagram and Twitter for two months after reading Digital Minimalism. Here's what I gave up, and why nothing really changed."
 ---
 
 I have been using Instagram and Twitter for nearly a decade. After reading

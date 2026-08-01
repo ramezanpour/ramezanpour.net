@@ -3,6 +3,8 @@ title: What 40 Days Without Dopamine Taught Me
 layout: post
 date: 2026-01-10
 categories: productivity life
+description: "What 40 days without social media, news, streaming, and video games taught me: the surprising results of my dopamine detox."
+image: /assets/images/freedom-from-detox.jpg
 ---
 
 ![Freedom from Detox](/assets/images/freedom-from-detox.jpg) <em><small>Photo by
