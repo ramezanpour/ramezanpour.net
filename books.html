@@ -1,0 +1,70 @@
+---
+layout: page
+permalink: /books/
+title: Books
+description: "Books I've read and rated, what I'm reading now, and what's next on the pile."
+---
+
+<p class="archive-intro">
+  A record of what I read. Ratings are my own and entirely subjective — five stars means the book
+  changed how I think about something, not that it is objectively great.
+</p>
+
+{% assign reading = site.data.books.reading %}
+{% if reading and reading.size > 0 %}
+<section class="books-section">
+  <h2 class="books-heading">Currently reading</h2>
+  <ul class="book-grid">
+    {% for book in reading %}
+    <li class="book-card">
+      {% if book.cover %}
+      <a href="{{ book.link }}" rel="noopener" target="_blank" class="book-cover">
+        <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}" loading="lazy" width="150" height="225" />
+      </a>
+      {% endif %}
+      <div class="book-meta">
+        <a class="book-title" href="{{ book.link }}" rel="noopener" target="_blank">{{ book.title }}</a>
+        <span class="book-author">{{ book.author }}</span>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% assign read = site.data.books.read | sort: "read" | reverse %}
+{% assign by_year = read | group_by_exp: "book", "book.read | date: '%Y'" %}
+
+<section class="books-section">
+  <h2 class="books-heading">Read <span class="books-count">{{ read.size }} books</span></h2>
+  {% for year in by_year %}
+  <div class="books-year">
+    <h3 id="y{{ year.name }}">{{ year.name }}</h3>
+    <ul class="book-list">
+      {% for book in year.items %}
+      <li class="book-row">
+        {% if book.cover %}
+        <img class="book-thumb" src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}" loading="lazy" width="110" height="165" />
+        {% else %}
+        <span class="book-thumb book-thumb-empty" aria-hidden="true"></span>
+        {% endif %}
+        <div class="book-meta">
+          <a class="book-title" href="{{ book.link }}" rel="noopener" target="_blank">{{ book.title }}</a>
+          <span class="book-author">{{ book.author }}</span>
+        </div>
+        <div class="book-aside">
+          {% if book.rating %}
+          <span class="book-rating" title="{{ book.rating }} out of 5" aria-label="Rated {{ book.rating }} out of 5">
+            {% for i in (1..5) %}{% if i <= book.rating %}<span class="star on">&#9733;</span>{% else %}<span class="star">&#9734;</span>{% endif %}{% endfor %}
+          </span>
+          {% else %}
+          <span class="book-rating book-unrated" aria-label="Not rated">&mdash;</span>
+          {% endif %}
+          <time datetime="{{ book.read }}">{{ book.read | date: "%b %-d" }}</time>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>

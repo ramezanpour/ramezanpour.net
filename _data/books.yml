@@ -1,0 +1,661 @@
+# Books I've read and am currently reading.
+# `reading` renders at the top of /books, `read` below it grouped by year.
+# rating: 1-5 (omit if unrated). read: YYYY-MM-DD. cover: path under /assets/images/books/.
+
+reading:
+- title: The Courage to Be Disliked
+  author: Ichiro Kishimi
+  cover: "/assets/images/books/43306206.jpg"
+  link: https://www.goodreads.com/book/show/43306206
+read:
+- title: 'Never Finished: Unshackle Your Mind and Win the War Within'
+  author: David Goggins
+  rating: 5
+  read: '2026-05-15'
+  cover: "/assets/images/books/63079845.jpg"
+  link: https://www.goodreads.com/book/show/63079845
+- title: A Philosophy of Software Design
+  author: John Ousterhout
+  rating: 3
+  read: '2026-03-15'
+  cover: "/assets/images/books/43701534.jpg"
+  link: https://www.goodreads.com/book/show/43701534
+- title: 'Sapiens: A Brief History of Humankind'
+  author: Yuval Noah Harari
+  rating: 5
+  read: '2026-01-28'
+  cover: "/assets/images/books/23692271.jpg"
+  link: https://www.goodreads.com/book/show/23692271
+- title: 'نردبان شکسته: چگونه نابرابری بر طرز فکر، زندگی ومرگ ما تأثیر قرار می‌گذارد'
+  author: Keith Payne
+  rating: 4
+  read: '2025-12-28'
+  cover: "/assets/images/books/55274444.jpg"
+  link: https://www.goodreads.com/book/show/55274444
+- title: One Thing
+  author: Gary Keller
+  rating: 3
+  read: '2025-12-15'
+  cover: "/assets/images/books/21319000.jpg"
+  link: https://www.goodreads.com/book/show/21319000
+- title: The Death of Ivan Ilych
+  author: Leo Tolstoy
+  rating: 5
+  read: '2025-12-06'
+  cover: "/assets/images/books/18386.jpg"
+  link: https://www.goodreads.com/book/show/18386
+- title: 'Sunrise on the Reaping (The Hunger Games, #0.5)'
+  author: Suzanne Collins
+  read: '2025-12-06'
+  cover: "/assets/images/books/214331246.jpg"
+  link: https://www.goodreads.com/book/show/214331246
+- title: 'Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals,
+    Declutter Your Mind, and Focus on the Present (The Path to Calm Book 1)'
+  author: Nick Trenton
+  rating: 4
+  read: '2025-12-01'
+  cover: "/assets/images/books/57280624.jpg"
+  link: https://www.goodreads.com/book/show/57280624
+- title: The Suicide Shop
+  author: Jean Teulé
+  rating: 4
+  read: '2025-10-19'
+  cover: "/assets/images/books/10916852.jpg"
+  link: https://www.goodreads.com/book/show/10916852
+- title: 'Dopamine Nation: Finding Balance in the Age of Indulgence'
+  author: Anna Lembke
+  rating: 4
+  read: '2025-09-14'
+  cover: "/assets/images/books/55723020.jpg"
+  link: https://www.goodreads.com/book/show/55723020
+- title: The Art of War
+  author: Sun Tzu
+  rating: 5
+  read: '2025-09-07'
+  cover: "/assets/images/books/10534.jpg"
+  link: https://www.goodreads.com/book/show/10534
+- title: 'Think Again: The Power of Knowing What You Don''t Know'
+  author: Adam M. Grant
+  rating: 5
+  read: '2025-08-12'
+  cover: "/assets/images/books/55539565.jpg"
+  link: https://www.goodreads.com/book/show/55539565
+- title: 'Source Code: My Beginnings'
+  author: Bill  Gates
+  rating: 4
+  read: '2025-08-10'
+  cover: "/assets/images/books/213034913.jpg"
+  link: https://www.goodreads.com/book/show/213034913
+- title: 'The Complete Guide to Fasting: Heal Your Body Through Intermittent, Alternate-Day,
+    and Extended Fasting'
+  author: Jason Fung
+  rating: 5
+  read: '2025-03-30'
+  cover: "/assets/images/books/32670670.jpg"
+  link: https://www.goodreads.com/book/show/32670670
+- title: 'The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness'
+  author: Morgan Housel
+  rating: 5
+  read: '2025-01-29'
+  cover: "/assets/images/books/41881472.jpg"
+  link: https://www.goodreads.com/book/show/41881472
+- title: Want
+  author: Gillian Anderson
+  rating: 3
+  read: '2025-01-19'
+  cover: "/assets/images/books/207006355.jpg"
+  link: https://www.goodreads.com/book/show/207006355
+- title: A Short History of Progress
+  author: Ronald Wright
+  rating: 4
+  read: '2024-12-22'
+  cover: "/assets/images/books/331227.jpg"
+  link: https://www.goodreads.com/book/show/331227
+- title: Pride and Prejudice
+  author: Jane Austen
+  rating: 3
+  read: '2024-12-18'
+  cover: "/assets/images/books/1885.jpg"
+  link: https://www.goodreads.com/book/show/1885
+- title: The Myth of Sisyphus
+  author: Albert Camus
+  rating: 3
+  read: '2024-12-01'
+  cover: "/assets/images/books/19220144.jpg"
+  link: https://www.goodreads.com/book/show/19220144
+- title: 'The Housemaid (The Housemaid, #1)'
+  author: Freida McFadden
+  rating: 5
+  read: '2024-09-22'
+  cover: "/assets/images/books/60556912.jpg"
+  link: https://www.goodreads.com/book/show/60556912
+- title: 'The 5 AM Club: Own Your Morning. Elevate Your Life'
+  author: Robin Sharma
+  rating: 3
+  read: '2024-09-10'
+  cover: "/assets/images/books/37502596.jpg"
+  link: https://www.goodreads.com/book/show/37502596
+- title: Fahrenheit 451
+  author: Ray Bradbury
+  rating: 4
+  read: '2024-02-26'
+  cover: "/assets/images/books/13079982.jpg"
+  link: https://www.goodreads.com/book/show/13079982
+- title: Recursion
+  author: Blake Crouch
+  rating: 4
+  read: '2023-12-31'
+  cover: "/assets/images/books/42046112.jpg"
+  link: https://www.goodreads.com/book/show/42046112
+- title: 'The Theory of Everything: The Origin and Fate of the Universe – Deluxe Edition
+    | Big Bang, Black Holes, Space & Time | Exploring Cosmos | Quantum Physics | Understanding
+    Reality Through Science'
+  author: Stephen W. Hawking
+  rating: 5
+  read: '2023-10-31'
+  cover: "/assets/images/books/20752756.jpg"
+  link: https://www.goodreads.com/book/show/20752756
+- title: 'Scarcity: Why Having Too Little Means So Much'
+  author: Sendhil Mullainathan
+  rating: 4
+  read: '2023-10-07'
+  cover: "/assets/images/books/17286670.jpg"
+  link: https://www.goodreads.com/book/show/17286670
+- title: Sea of Tranquility
+  author: Emily St. John Mandel
+  rating: 4
+  read: '2023-07-20'
+  cover: "/assets/images/books/58446227.jpg"
+  link: https://www.goodreads.com/book/show/58446227
+- title: 'Building a Second Brain: A Proven Method to Organize Your Digital Life and
+    Unlock Your Creative Potential'
+  author: Tiago Forte
+  rating: 3
+  read: '2023-05-30'
+  cover: "/assets/images/books/59616977.jpg"
+  link: https://www.goodreads.com/book/show/59616977
+- title: 'Can''t Hurt Me: Master Your Mind and Defy the Odds'
+  author: David Goggins
+  rating: 5
+  read: '2023-05-17'
+  cover: "/assets/images/books/41721428.jpg"
+  link: https://www.goodreads.com/book/show/41721428
+- title: 'Endure: How to Work Hard, Outlast, and Keep Hammering'
+  author: Cameron R. Hanes
+  rating: 4
+  read: '2023-05-14'
+  cover: "/assets/images/books/58578769.jpg"
+  link: https://www.goodreads.com/book/show/58578769
+- title: 'The Midnight Library (The Midnight World, #1)'
+  author: Matt Haig
+  rating: 5
+  read: '2023-03-30'
+  cover: "/assets/images/books/51955934.jpg"
+  link: https://www.goodreads.com/book/show/51955934
+- title: 'Team Topologies: Organizing Business and Technology Teams for Fast Flow'
+  author: Matthew    Skelton
+  rating: 4
+  read: '2023-03-28'
+  cover: "/assets/images/books/44135420.jpg"
+  link: https://www.goodreads.com/book/show/44135420
+- title: Dare to Lead
+  author: Brené Brown
+  rating: 5
+  read: '2023-03-17'
+  cover: "/assets/images/books/40109367.jpg"
+  link: https://www.goodreads.com/book/show/40109367
+- title: 'Harry Potter and the Philosopher''s Stone (Harry Potter, #1)'
+  author: J.K. Rowling
+  rating: 5
+  read: '2022-10-31'
+  cover: "/assets/images/books/42844155.jpg"
+  link: https://www.goodreads.com/book/show/42844155
+- title: 'The Bright Hour: A Memoir of Living and Dying'
+  author: Nina Riggs
+  rating: 5
+  read: '2022-10-02'
+  cover: "/assets/images/books/34390411.jpg"
+  link: https://www.goodreads.com/book/show/34390411
+- title: Astrophysics for People in a Hurry (Astrophysics for People in a Hurry Series)
+  author: Neil deGrasse Tyson
+  rating: 4
+  read: '2022-09-04'
+  cover: "/assets/images/books/33395538.jpg"
+  link: https://www.goodreads.com/book/show/33395538
+- title: 'Shell Scripting: How to Automate Command Line Tasks Using Bash Scripting
+    and Shell Programming'
+  author: Jason Cannon
+  rating: 4
+  read: '2022-08-28'
+  cover: "/assets/images/books/27032154.jpg"
+  link: https://www.goodreads.com/book/show/27032154
+- title: The Book You Wish Your Parents Had Read [and Your Children Will Be Glad That
+    You Did]
+  author: Philippa Perry
+  rating: 4
+  read: '2022-08-24'
+  cover: "/assets/images/books/42348818.jpg"
+  link: https://www.goodreads.com/book/show/42348818
+- title: 'The Cafe on the Edge of the World: A Story About the Meaning of Life'
+  author: John P. Strelecky
+  rating: 4
+  read: '2022-07-01'
+  cover: "/assets/images/books/55536485.jpg"
+  link: https://www.goodreads.com/book/show/55536485
+- title: 'Learning Go: An Idiomatic Approach to Real-World Go Programming'
+  author: Jon Bodner
+  rating: 5
+  read: '2022-06-25'
+  cover: "/assets/images/books/55841848.jpg"
+  link: https://www.goodreads.com/book/show/55841848
+- title: Project Hail Mary
+  author: Andy Weir
+  rating: 5
+  read: '2022-05-11'
+  cover: "/assets/images/books/55313155.jpg"
+  link: https://www.goodreads.com/book/show/55313155
+- title: Greenlights
+  author: Matthew McConaughey
+  rating: 4
+  read: '2022-04-09'
+  cover: "/assets/images/books/52838315.jpg"
+  link: https://www.goodreads.com/book/show/52838315
+- title: The Great Gatsby
+  author: F. Scott Fitzgerald
+  rating: 4
+  read: '2022-02-20'
+  cover: "/assets/images/books/58233016.jpg"
+  link: https://www.goodreads.com/book/show/58233016
+- title: 'The Manager''s Path: A Guide for Tech Leaders Navigating Growth and Change'
+  author: Camille Fournier
+  rating: 4
+  read: '2022-02-01'
+  cover: "/assets/images/books/33369254.jpg"
+  link: https://www.goodreads.com/book/show/33369254
+- title: 'The Making of a Manager: What to Do When Everyone Looks to You'
+  author: Julie Zhuo
+  rating: 5
+  read: '2021-11-10'
+  cover: "/assets/images/books/38821039.jpg"
+  link: https://www.goodreads.com/book/show/38821039
+- title: 'اوضاع خیلی خراب است!: کتابی درباره‌ی امید'
+  author: Mark Manson
+  rating: 4
+  read: '2021-02-10'
+  cover: "/assets/images/books/49979001.jpg"
+  link: https://www.goodreads.com/book/show/49979001
+- title: آنا کارنینا؛ جلد اول
+  author: Leo Tolstoy
+  rating: 4
+  read: '2020-11-17'
+  cover: "/assets/images/books/5507352.jpg"
+  link: https://www.goodreads.com/book/show/5507352
+- title: Microservice Architecture Aligning Principles, Practices, and Culture
+  author: Irakli Nadareishvili
+  rating: 3
+  read: '2020-11-15'
+  cover: "/assets/images/books/30827276.jpg"
+  link: https://www.goodreads.com/book/show/30827276
+- title: The Boy, the Mole, the Fox and the Horse
+  author: Charlie Mackesy
+  rating: 3
+  read: '2020-09-20'
+  cover: "/assets/images/books/43708884.jpg"
+  link: https://www.goodreads.com/book/show/43708884
+- title: مینیمالیسم دیجیتال
+  author: Cal Newport
+  rating: 5
+  read: '2020-09-20'
+  link: https://www.goodreads.com/book/show/52219289
+- title: موش‌ها و آدم‌ها
+  author: John Steinbeck
+  rating: 4
+  read: '2020-09-08'
+  cover: "/assets/images/books/10541690.jpg"
+  link: https://www.goodreads.com/book/show/10541690
+- title: 'Building Microservices: Designing Fine-Grained Systems'
+  author: Sam Newman
+  rating: 3
+  read: '2020-07-26'
+  cover: "/assets/images/books/24836465.jpg"
+  link: https://www.goodreads.com/book/show/24836465
+- title: 'Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones'
+  author: James Clear
+  rating: 5
+  read: '2020-07-26'
+  cover: "/assets/images/books/40121378.jpg"
+  link: https://www.goodreads.com/book/show/40121378
+- title: خداحافظ گاری کوپر
+  author: Romain Gary
+  rating: 3
+  read: '2020-05-13'
+  cover: "/assets/images/books/662768.jpg"
+  link: https://www.goodreads.com/book/show/662768
+- title: Educated
+  author: Tara Westover
+  rating: 5
+  read: '2020-04-17'
+  cover: "/assets/images/books/35133922.jpg"
+  link: https://www.goodreads.com/book/show/35133922
+- title: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living
+    a Good Life'
+  author: Mark Manson
+  rating: 5
+  read: '2020-03-05'
+  cover: "/assets/images/books/28257707.jpg"
+  link: https://www.goodreads.com/book/show/28257707
+- title: قمارباز
+  author: Fyodor Dostoevsky
+  rating: 4
+  read: '2019-11-13'
+  cover: "/assets/images/books/6640383.jpg"
+  link: https://www.goodreads.com/book/show/6640383
+- title: 'Darwin''s Dangerous Idea: Evolution and the Meanings of Life'
+  author: Daniel C. Dennett
+  rating: 4
+  read: '2019-11-08'
+  cover: "/assets/images/books/2068.jpg"
+  link: https://www.goodreads.com/book/show/2068
+- title: 'Hooked: How to Build Habit-Forming Products'
+  author: Nir   Eyal
+  rating: 5
+  read: '2019-10-28'
+  cover: "/assets/images/books/22668729.jpg"
+  link: https://www.goodreads.com/book/show/22668729
+- title: The C++ Programming Language
+  author: Bjarne Stroustrup
+  rating: 5
+  read: '2019-09-01'
+  cover: "/assets/images/books/112251.jpg"
+  link: https://www.goodreads.com/book/show/112251
+- title: Professional Git
+  author: Brent Laster
+  rating: 4
+  read: '2019-08-29'
+  cover: "/assets/images/books/33552720.jpg"
+  link: https://www.goodreads.com/book/show/33552720
+- title: Man's Search for Meaning
+  author: Viktor E. Frankl
+  rating: 5
+  read: '2019-08-22'
+  cover: "/assets/images/books/4069.jpg"
+  link: https://www.goodreads.com/book/show/4069
+- title: هفت عادت مردمان موثر
+  author: Stephen R. Covey
+  rating: 3
+  read: '2019-08-10'
+  cover: "/assets/images/books/1964307.jpg"
+  link: https://www.goodreads.com/book/show/1964307
+- title: 'Alibaba''s World: How a Remarkable Chinese Company is Changing the Face
+    of Global Business'
+  author: Porter Erisman
+  rating: 4
+  read: '2019-05-23'
+  cover: "/assets/images/books/23014882.jpg"
+  link: https://www.goodreads.com/book/show/23014882
+- title: 'The Sex Myth: The Gap Between Our Fantasies and Reality'
+  author: Rachel Hills
+  rating: 3
+  read: '2019-04-15'
+  cover: "/assets/images/books/23492818.jpg"
+  link: https://www.goodreads.com/book/show/23492818
+- title: 'Make Your Bed: Little Things That Can Change Your Life...And Maybe the World'
+  author: William H. McRaven
+  rating: 5
+  read: '2019-04-15'
+  cover: "/assets/images/books/31423133.jpg"
+  link: https://www.goodreads.com/book/show/31423133
+- title: هنر شفاف اندیشیدن
+  author: Rolf Dobelli
+  rating: 3
+  read: '2019-04-01'
+  cover: "/assets/images/books/25760448.jpg"
+  link: https://www.goodreads.com/book/show/25760448
+- title: 'اثر مرکب: آغاز جهشی در زندگی، موفقیت و درآمد شما'
+  author: Darren Hardy
+  rating: 5
+  read: '2019-03-31'
+  cover: "/assets/images/books/30211015.jpg"
+  link: https://www.goodreads.com/book/show/30211015
+- title: 'Finding Meaning in the Second Half of Life: How to Finally, Really Grow
+    Up'
+  author: James Hollis
+  read: '2019-03-01'
+  cover: "/assets/images/books/99574.jpg"
+  link: https://www.goodreads.com/book/show/99574
+- title: هوش مالی
+  author: رابرت کیوساکی
+  rating: 4
+  read: '2019-01-25'
+  cover: "/assets/images/books/42737290.jpg"
+  link: https://www.goodreads.com/book/show/42737290
+- title: The 7 Worst Things Good Parents Do
+  author: John C. Friel
+  rating: 5
+  read: '2019-01-05'
+  cover: "/assets/images/books/1091465.jpg"
+  link: https://www.goodreads.com/book/show/1091465
+- title: پدر پولدار، پدر بی پول
+  author: Robert T. Kiyosaki
+  rating: 5
+  read: '2019-01-05'
+  cover: "/assets/images/books/1896759.jpg"
+  link: https://www.goodreads.com/book/show/1896759
+- title: چهار اثر از فلورانس اسکاول شین
+  author: Florence Scovel Shinn
+  rating: 3
+  read: '2019-01-05'
+  cover: "/assets/images/books/654626.jpg"
+  link: https://www.goodreads.com/book/show/654626
+- title: Setting Goals (Pocket Mentor)
+  author: Harvard Business School Publishing Corporation
+  rating: 3
+  read: '2018-11-26'
+  cover: "/assets/images/books/8869579.jpg"
+  link: https://www.goodreads.com/book/show/8869579
+- title: دال دوست داشتن
+  author: حسین وحدانی
+  rating: 3
+  read: '2018-10-28'
+  cover: "/assets/images/books/40130744.jpg"
+  link: https://www.goodreads.com/book/show/40130744
+- title: Linux Command Line and Shell Scripting Bible
+  author: Richard Blum
+  rating: 5
+  read: '2018-10-28'
+  cover: "/assets/images/books/22775579.jpg"
+  link: https://www.goodreads.com/book/show/22775579
+- title: بیگانه
+  author: Albert Camus
+  rating: 4
+  read: '2018-10-25'
+  cover: "/assets/images/books/440020.jpg"
+  link: https://www.goodreads.com/book/show/440020
+- title: در ستايش بطالت
+  author: Bertrand Russell
+  rating: 5
+  read: '2018-10-25'
+  cover: "/assets/images/books/25006681.jpg"
+  link: https://www.goodreads.com/book/show/25006681
+- title: کشتن مرغ مینا
+  author: Harper Lee
+  read: '2018-10-12'
+  cover: "/assets/images/books/2297303.jpg"
+  link: https://www.goodreads.com/book/show/2297303
+- title: مزرعه‌ی حیوانات
+  author: George Orwell
+  rating: 5
+  read: '2018-07-31'
+  cover: "/assets/images/books/22755896.jpg"
+  link: https://www.goodreads.com/book/show/22755896
+- title: The Little Go Book
+  author: Karl Seguin
+  rating: 5
+  read: '2018-07-27'
+  cover: "/assets/images/books/23417262.jpg"
+  link: https://www.goodreads.com/book/show/23417262
+- title: The Grand Design
+  author: Stephen W. Hawking
+  rating: 5
+  read: '2018-07-25'
+  cover: "/assets/images/books/8520362.jpg"
+  link: https://www.goodreads.com/book/show/8520362
+- title: 'Deep Work: Rules for Focused Success in a Distracted World'
+  author: Cal Newport
+  rating: 3
+  read: '2018-07-15'
+  cover: "/assets/images/books/25744928.jpg"
+  link: https://www.goodreads.com/book/show/25744928
+- title: Crime and Punishment
+  author: Fyodor Dostoevsky
+  rating: 5
+  read: '2018-07-11'
+  cover: "/assets/images/books/7144.jpg"
+  link: https://www.goodreads.com/book/show/7144
+- title: عقاید یک دلقک
+  author: Heinrich Böll
+  rating: 3
+  read: '2018-04-22'
+  cover: "/assets/images/books/326272.jpg"
+  link: https://www.goodreads.com/book/show/326272
+- title: شازده کوچولو
+  author: Antoine de Saint-Exupéry
+  rating: 4
+  read: '2018-04-09'
+  cover: "/assets/images/books/148849.jpg"
+  link: https://www.goodreads.com/book/show/148849
+- title: پیرمرد و دریا
+  author: Ernest Hemingway
+  rating: 5
+  read: '2018-03-23'
+  cover: "/assets/images/books/3640977.jpg"
+  link: https://www.goodreads.com/book/show/3640977
+- title: ۱۹۸۴
+  author: George Orwell
+  rating: 5
+  read: '2018-03-14'
+  cover: "/assets/images/books/3652228.jpg"
+  link: https://www.goodreads.com/book/show/3652228
+- title: 'Clean Code: A Handbook of Agile Software Craftsmanship'
+  author: Robert C. Martin
+  rating: 4
+  read: '2018-02-20'
+  cover: "/assets/images/books/3735293.jpg"
+  link: https://www.goodreads.com/book/show/3735293
+- title: Primary Colors
+  author: Brent Furnas
+  rating: 2
+  read: '2018-01-01'
+  cover: "/assets/images/books/1181090.jpg"
+  link: https://www.goodreads.com/book/show/1181090
+- title: برنامه نویسی به زبان C++
+  author: عین الله جعفر نژاد قمی
+  rating: 4
+  read: '2018-01-01'
+  cover: "/assets/images/books/18179368.jpg"
+  link: https://www.goodreads.com/book/show/18179368
+- title: The Return of Sherlock Holmes
+  author: Arthur Conan Doyle
+  rating: 3
+  read: '2018-01-01'
+  cover: "/assets/images/books/1226184.jpg"
+  link: https://www.goodreads.com/book/show/1226184
+- title: 'بیشعوری: راهنمای تشخیص و درمان خطرناکترین بیماری تاریخ بشریت'
+  author: Xavier Crement
+  rating: 1
+  read: '2017-12-25'
+  cover: "/assets/images/books/11502462.jpg"
+  link: https://www.goodreads.com/book/show/11502462
+- title: قدرت عادت
+  author: Charles Duhigg
+  rating: 5
+  read: '2017-11-15'
+  cover: "/assets/images/books/32799605.jpg"
+  link: https://www.goodreads.com/book/show/32799605
+- title: مسخ
+  author: Franz Kafka
+  rating: 3
+  read: '2017-09-21'
+  cover: "/assets/images/books/1503020.jpg"
+  link: https://www.goodreads.com/book/show/1503020
+- title: The C Programming Language
+  author: Brian W. Kernighan
+  rating: 4
+  read: '2017-08-25'
+  cover: "/assets/images/books/515601.jpg"
+  link: https://www.goodreads.com/book/show/515601
+- title: A Brief History of Time
+  author: Stephen W. Hawking
+  rating: 5
+  read: '2017-08-18'
+  cover: "/assets/images/books/3869.jpg"
+  link: https://www.goodreads.com/book/show/3869
+- title: 'Think Java: How to Think Like a Computer Scientist'
+  author: Allen B. Downey
+  rating: 3
+  read: '2017-03-25'
+  cover: "/assets/images/books/18277119.jpg"
+  link: https://www.goodreads.com/book/show/18277119
+- title: Little House on the Prairie
+  author: Laura Ingalls Wilder
+  rating: 3
+  read: '2016-12-30'
+  link: https://www.goodreads.com/book/show/13450508
+- title: Love or Money?
+  author: Rowena Akinyemi
+  rating: 3
+  read: '2016-10-13'
+  cover: "/assets/images/books/150808.jpg"
+  link: https://www.goodreads.com/book/show/150808
+- title: 'WPF Programmer''s Reference: Windows Presentation Foundation with C# 2010
+    and .NET 4 (Wrox Programmer to Programmer)'
+  author: Rod Stephens
+  read: '2016-09-23'
+  cover: "/assets/images/books/7887042.jpg"
+  link: https://www.goodreads.com/book/show/7887042
+- title: jQuery in Action
+  author: Bear Bibeault
+  read: '2016-09-23'
+  cover: "/assets/images/books/2242700.jpg"
+  link: https://www.goodreads.com/book/show/2242700
+- title: Professional C# 4.0 and .NET 4
+  author: Christian Nagel
+  read: '2016-09-23'
+  cover: "/assets/images/books/7183307.jpg"
+  link: https://www.goodreads.com/book/show/7183307
+- title: A Practical Guide to Linux Commands, Editors, and Shell Programming
+  author: Mark G. Sobell
+  rating: 3
+  read: '2016-09-23'
+  cover: "/assets/images/books/617170.jpg"
+  link: https://www.goodreads.com/book/show/617170
+- title: Visual Basic 2005 Programmer's Reference
+  author: Rod Stephens
+  read: '2016-09-23'
+  cover: "/assets/images/books/307655.jpg"
+  link: https://www.goodreads.com/book/show/307655
+- title: Learning Python
+  author: Mark Lutz
+  read: '2016-09-23'
+  cover: "/assets/images/books/80435.jpg"
+  link: https://www.goodreads.com/book/show/80435
+- title: Programming Microsoft SQL Server 2005
+  author: Andrew J. Brust
+  read: '2016-09-23'
+  cover: "/assets/images/books/53300.jpg"
+  link: https://www.goodreads.com/book/show/53300
+- title: Professional Microsoft SQL Server 2008 Programming
+  author: Robert Vieira
+  read: '2016-09-23'
+  cover: "/assets/images/books/5185356.jpg"
+  link: https://www.goodreads.com/book/show/5185356
+- title: Professional SQL Server 2005 Programming
+  author: Robert Vieira
+  read: '2016-09-23'
+  cover: "/assets/images/books/225773.jpg"
+  link: https://www.goodreads.com/book/show/225773
+- title: Professional ASP.NET MVC 4
+  author: Jon Galloway
+  read: '2016-09-23'
+  cover: "/assets/images/books/13838958.jpg"
+  link: https://www.goodreads.com/book/show/13838958

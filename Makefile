@@ -1,3 +1,6 @@
+book:
+	@ruby _scripts/add_book.rb $(URL)
+
 run:
 	bundle exec jekyll serve --livereload --drafts
 
