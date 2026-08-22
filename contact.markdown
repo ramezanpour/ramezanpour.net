@@ -8,6 +8,9 @@ First of all, thank you in advance for your interest in contacting me. You might
 a contact form here but over the years I realised that when it comes to contact, you should keep it as simple as
 possible and when it comes to simplicity, there's nothing simpler than email.
 
-To contact, please use the following email: **i\[at sign\]this domain**.
+To contact, please use one of the following:
+
+- Email: <i@ramezanpour.net>
+- LinkedIn: <https://www.linkedin.com/in/ramezanpour>
 
 Looking forward to hearing from you.
