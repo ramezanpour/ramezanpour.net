@@ -319,11 +319,17 @@ hr {
 }
 
 blockquote {
-  margin: 2rem 0;
-  padding-left: 1.25rem;
-  border-left: 2px solid var(--rule);
-  color: var(--ink-muted);
-  font-style: italic;
+  margin: 2.25rem 0;
+  padding: 1.1rem 1.35rem;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  background-color: var(--bg-subtle);
+  color: var(--ink);
+  font-style: normal;
+}
+
+blockquote code {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 blockquote p:last-child {
