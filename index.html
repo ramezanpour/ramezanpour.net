@@ -4,11 +4,16 @@ title: Home
 ---
 
 <div class="home">
-  <div class="avatar-container">
-    <img src="/assets/images/me.jpg" alt="Mohammad Mahdi Ramezanpour" />
+  <div class="intro">
+    <div class="avatar-container">
+      <img src="/assets/images/me.jpg" alt="Mohammad Mahdi Ramezanpour" width="88" height="88" />
+    </div>
+    <div class="identity">
+      <h1>Mohammad M. Ramezanpour</h1>
+      <p class="tagline">Software developer since 2002, husband since 2012, father since 2017.</p>
+    </div>
   </div>
   <div class="note">
-    <h1>Mohammad M. Ramezanpour</h1>
     <p>
       Hello, and thank you for stopping by! You've reached the personal website
       of Mohammad Mahdi Ramezanpour — a software engineer, husband, and father.
@@ -22,23 +27,24 @@ title: Home
     </p>
   </div>
   <nav class="menu">
-    <a href="{% link index.html %}">Home</a>
     <a href="{% link about.markdown %}">About</a>
     <a href="{% link blog/index.html %}">Blog</a>
+    <a href="{% link archive.html %}">All posts</a>
     <a href="{% link contact.markdown %}">Contact</a>
-    <a href="https://linkedin.com/in/ramezanpour" target="_blank">LinkedIn</a>
-    <a href="https://www.goodreads.com/ramezanpour" target="_blank"
-      >Books I read</a
-    >
+    <a href="https://linkedin.com/in/ramezanpour" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.goodreads.com/ramezanpour" target="_blank" rel="noopener">Books I read</a>
     <a href="{% link feed.xml %}">RSS</a>
   </nav>
 </div>
 <div class="home-sub-section">
   <div class="latest-posts">
-    <h3>Latest Posts</h3>
+    <h3>Latest posts</h3>
     {% for post in site.posts limit:20 %}
-    <a class="latest-post-item" href="{{ post.url }}">{{ post.title }}</a>
-    <small>{{ post.date | date_to_string }}</small>
+    <a class="latest-post-item" href="{{ post.url | relative_url }}">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      <span class="title">{{ post.title }}</span>
+    </a>
     {% endfor %}
+    <a class="archive-link" href="{% link archive.html %}">All posts &rarr;</a>
   </div>
 </div>

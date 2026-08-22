@@ -9,36 +9,22 @@ title: Blog
     <h1>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h1>
+    <p class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    </p>
   </header>
   <div class="content">
     {{ post.content }}
   </div>
-  <footer class="text-right">
-    <span>
-      In {% if post %} {% assign categories = post.categories %} {% else %} {%
-      assign categories = page.categories %} {% endif %} {% for category in
-      categories %}
-      <a
-        href="{{ site.url | relative_url }}/categories/#{{
-          category | slugize
-        }}"
-        >{{ category | capitalize }}</a
-      >
-      {% unless forloop.last %}, {% endunless %} {% endfor %}
-    </span>
-    |
-    {{ post.date | date_to_string }}
-  </footer>
 </article>
 {% endfor %}
 
 <!-- Pagination links -->
 <div class="paginator">
   {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="previous">
-    Newer posts
-  </a>
-  | {% endif %} {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}">Older posts</a>
+  <a href="{{ paginator.previous_page_path }}" class="previous">&larr; Newer posts</a>
+  {% endif %}
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}">Older posts &rarr;</a>
   {% endif %}
 </div>

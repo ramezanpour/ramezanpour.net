@@ -1,6 +1,13 @@
 <footer class="main-footer">
-  &copy; 2008 - {{ "now" | date: "%Y" }} Mohammad Mahdi Ramezanpour. <br />Posts are made available under a
-  <a href="https://creativecommons.org/licenses/by/4.0/" target="blank">Creative Commons Attribution License</a>.
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a><br />
-  Disclaimer: The opinions expressed in this website are my own and not my employer
+  <nav class="menu footer-menu">
+    <a href="https://linkedin.com/in/ramezanpour" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.goodreads.com/ramezanpour" target="_blank" rel="noopener">Books I read</a>
+    <a href="{% link feed.xml %}">RSS</a>
+  </nav>
+  <p>
+    &copy; 2008 &ndash; {{ "now" | date: "%Y" }} Mohammad Mahdi Ramezanpour. Posts are made available under a
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution License</a>.
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
+  </p>
+  <p>Disclaimer: The opinions expressed in this website are my own and not my employer's.</p>
 </footer>

@@ -5,10 +5,8 @@
   </head>
   <body>
     <div class="container">
-      <div class="menu">{% include menu.html %}</div>
-      <div class="blog">
-        {{ content }}
-      </div>
+      {% include menu.html %}
+      <div class="blog">{{ content }}</div>
       {% include footer.html %}
     </div>
   </body>

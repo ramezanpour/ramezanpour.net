@@ -1,0 +1,25 @@
+---
+layout: page
+permalink: /archive/
+title: All posts
+description: "A complete index of every post published on ramezanpour.net, listed newest first."
+---
+
+<p class="archive-intro">
+    Here you can find every post that I have published. Unfortunately, a lot of my posts which I blogged about in the past has been lost due to lack of backups but ehse are are available :) 
+</p>
+
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in posts_by_year %}
+<section class="archive-year">
+  <h2 id="y{{ year.name }}">{{ year.name }}</h2>
+  <ul class="archive-list">
+    {% for post in year.items %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
