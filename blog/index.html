@@ -4,25 +4,7 @@ title: Blog
 ---
 
 {% for post in paginator.posts %}
-<article class="post{% if post.images %} photo-card{% endif %}">
-  {% if post.images %}
-  <a class="photo-card-image" href="{{ post.url | relative_url }}">
-    <img
-      src="{{ post.images[0] }}"
-      alt="{{ post.title | default: post.description | strip_html }}"
-      loading="lazy"
-    />
-    {% if post.images.size > 1 %}
-    <span class="photo-grid-badge" title="Multiple photos">&#9635;</span>
-    {% endif %}
-  </a>
-  {% if post.title %}
-  <header>
-    <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
-  </header>
-  {% endif %}
-  <div class="content">{{ post.content }}</div>
-  {% else %}
+<article class="post">
   <header>
     <h1>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -31,7 +13,6 @@ title: Blog
   <div class="content">
     {{ post.content }}
   </div>
-  {% endif %}
   <footer class="text-right">
     <span>
       In {% if post %} {% assign categories = post.categories %} {% else %} {%
