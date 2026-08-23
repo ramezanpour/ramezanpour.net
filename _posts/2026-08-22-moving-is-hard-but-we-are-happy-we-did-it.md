@@ -10,9 +10,10 @@ image: /assets/images/moving-2026.jpg
 
 ![Moving](/assets/images/moving-2026.jpg)
 
-Since we moved to Germany in March 2021, we've changed flats three times. When we arrived in Berlin, we rented a
-temporary, furnished flat for six months. Then we moved to a permanent, unfurnished flat so that we could start
-personalising our living space. Five years later, we've moved again, this time into a flat of our own.
+Since we [moved to Germany in March 2021]({% post_url 2021-04-03-The-move %}), we've changed flats three times. When we
+arrived in BER airport for the first time, we rented a temporary, furnished flat for six months. Then we moved to a
+permanent, unfurnished flat so that we could start personalising our living space. Five years later, we've moved again,
+this time into a flat of our own.
 
 The first two moves were relatively easy. When we arrived at BER airport, we had only four big pieces of luggage. After
 six months, when we moved to the new unfurnished flat, we'd bought only a few things. Due to COVID, we were exposing
@@ -21,7 +22,8 @@ things. We basically had everything we had before migrating to Germany, plus a l
 
 It took us more than two weeks to move everything. At first, I thought I could do it myself, just like the first time.
 This time was a bit different, though, because we had a car. So I decided to start taking things over bit by bit every
-day after work, and for the bigger stuff, I would take an XXL Miles car.
+day after work, and for the bigger stuff, I would take an XXL [Miles](https://www.miles-mobility.com){:target="_blank"}
+car.
 
 After doing this for five days, I faced reality: we had much more stuff than I had expected. So, I hired one of those
 moving companies that brings its own transporter to move the rest. It took them eight hours to move everything that day.
