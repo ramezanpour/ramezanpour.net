@@ -1,0 +1,201 @@
+/* ==========================================================================
+   Syntax highlighting — theme-agnostic.
+
+   Every colour here is a --hl-* token. The light and dark values live with
+   the rest of the palette in ramezanpour.css, so this file never needs to
+   know which theme is active.
+   ========================================================================== */
+
+.highlight .hll {
+  background-color: var(--hl-hll);
+}
+
+/* --- Comments ------------------------------------------------------------ */
+
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cd {
+  color: var(--hl-comment);
+  font-style: var(--hl-comment-style);
+}
+
+.highlight .cp,
+.highlight .cs {
+  color: var(--hl-preproc);
+  font-weight: var(--hl-bold);
+  font-style: var(--hl-comment-style);
+}
+
+/* --- Keywords & operators ------------------------------------------------ */
+
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kp,
+.highlight .kr {
+  color: var(--hl-keyword);
+  font-weight: var(--hl-bold);
+}
+
+.highlight .kn {
+  color: var(--hl-keyword-ns);
+  font-weight: var(--hl-bold);
+}
+
+.highlight .kt {
+  color: var(--hl-type);
+  font-weight: var(--hl-bold);
+}
+
+.highlight .o,
+.highlight .ow {
+  color: var(--hl-operator);
+  font-weight: var(--hl-bold);
+}
+
+/* --- Names --------------------------------------------------------------- */
+
+.highlight .n,
+.highlight .p {
+  color: var(--hl-name);
+}
+
+.highlight .nb,
+.highlight .bp {
+  color: var(--hl-builtin);
+}
+
+.highlight .nc {
+  color: var(--hl-class);
+  font-weight: var(--hl-bold);
+}
+
+.highlight .no {
+  color: var(--hl-constant);
+}
+
+.highlight .nd {
+  color: var(--hl-decorator);
+  font-weight: var(--hl-bold);
+}
+
+.highlight .ni {
+  color: var(--hl-entity);
+}
+
+.highlight .ne,
+.highlight .nf,
+.highlight .nl {
+  color: var(--hl-function);
+  font-weight: var(--hl-bold);
+}
+
+.highlight .nn {
+  color: var(--hl-namespace);
+}
+
+.highlight .nt {
+  color: var(--hl-tag);
+}
+
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: var(--hl-variable);
+}
+
+.highlight .nx,
+.highlight .py {
+  color: var(--hl-name-other);
+}
+
+/* --- Literals ------------------------------------------------------------ */
+
+.highlight .l,
+.highlight .ld {
+  color: var(--hl-literal);
+}
+
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il {
+  color: var(--hl-number);
+}
+
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1 {
+  color: var(--hl-string);
+}
+
+.highlight .se {
+  color: var(--hl-string-escape);
+}
+
+.highlight .sr {
+  color: var(--hl-regex);
+}
+
+.highlight .ss {
+  color: var(--hl-symbol);
+}
+
+/* --- Whitespace & errors ------------------------------------------------- */
+
+.highlight .w {
+  color: var(--hl-whitespace);
+}
+
+.highlight .err {
+  color: var(--hl-err-fg);
+  background-color: var(--hl-err-bg);
+}
+
+/* --- Generic (diffs, tracebacks, REPL output) ---------------------------- */
+
+.highlight .gd {
+  color: var(--hl-del-fg);
+  background-color: var(--hl-del-bg);
+}
+
+.highlight .gi {
+  color: var(--hl-ins-fg);
+  background-color: var(--hl-ins-bg);
+}
+
+.highlight .ge {
+  font-style: italic;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+.highlight .gr,
+.highlight .gt {
+  color: var(--hl-err-fg);
+}
+
+.highlight .gh,
+.highlight .gu {
+  color: var(--hl-generic-heading);
+}
+
+.highlight .go {
+  color: var(--hl-generic);
+}
+
+.highlight .gp {
+  color: var(--hl-prompt);
+}

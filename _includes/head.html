@@ -36,7 +36,56 @@
   name="msapplication-config"
   content="{{ '/assets/browserconfig.xml' | relative_url }}"
 />
-<meta name="theme-color" content="#ffffff" />
+<meta name="theme-color" content="#fdfdfc" />
+
+<script>
+  // Runs before the stylesheet is applied so the page never paints the wrong
+  // theme first. An explicit choice wins; otherwise we follow the OS.
+  (function () {
+    var LIGHT = "#fdfdfc";
+    var DARK = "#161614";
+    var query = window.matchMedia("(prefers-color-scheme: dark)");
+
+    function stored() {
+      try {
+        var v = localStorage.getItem("theme");
+        return v === "light" || v === "dark" ? v : null;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function apply(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.setAttribute("content", theme === "dark" ? DARK : LIGHT);
+    }
+
+    function resolved() {
+      return stored() || (query.matches ? "dark" : "light");
+    }
+
+    apply(resolved());
+
+    // Track the OS while the reader has not overridden it.
+    var onChange = function () {
+      if (!stored()) apply(query.matches ? "dark" : "light");
+    };
+    if (query.addEventListener) query.addEventListener("change", onChange);
+    else if (query.addListener) query.addListener(onChange);
+
+    // Delegated so it works regardless of where the button is in the document.
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest && event.target.closest("[data-theme-toggle]");
+      if (!button) return;
+      var next = resolved() === "dark" ? "light" : "dark";
+      try {
+        localStorage.setItem("theme", next);
+      } catch (e) {}
+      apply(next);
+    });
+  })();
+</script>
 
 <link rel="stylesheet" href="{{ '/css/ramezanpour.css' | relative_url }}" /> {%
 seo %} {% feed_meta %} {% unless page.image %}

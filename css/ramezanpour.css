@@ -1,16 +1,28 @@
-@import "highlight-light.css";
+@import "highlight.css";
 
 /* ==========================================================================
    Editorial minimal — text first, one accent, hairline rules.
    ========================================================================== */
 
 :root {
+  color-scheme: light dark;
+
   --font-sans:
     system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
+  --measure: 40rem;
+  --gap: 1.6rem;
+}
+
+/* --- Light palette -------------------------------------------------------
+   The default. Every colour in the stylesheet resolves through these tokens,
+   so a theme is nothing more than a second copy of this block.
+   ------------------------------------------------------------------------- */
+
+:root {
   --ink: #1a1a19;
   --ink-muted: #6b6862;
   --ink-faint: #8f8b84;
@@ -18,9 +30,190 @@
   --bg: #fdfdfc;
   --bg-subtle: #f5f4f1;
   --rule: #e3e0da;
+  --star-off: #d3cfc7;
 
-  --measure: 40rem;
-  --gap: 1.6rem;
+  --code-tint: rgba(0, 0, 0, 0.05);
+  --shadow-thumb: 0 1px 3px rgba(0, 0, 0, 0.14);
+  --shadow-cover: 0 2px 6px rgba(0, 0, 0, 0.16);
+  --icon-filter: none;
+
+  --banner-ok-bg: #edf7f0;
+  --banner-ok-ink: #1f5133;
+  --banner-ok-rule: #bfe0cb;
+  --banner-bad-bg: #fdf0ee;
+  --banner-bad-ink: #8a2c1c;
+  --banner-bad-rule: #f0cdc5;
+
+  /* Syntax — GitHub-ish */
+  --hl-bold: 700;
+  --hl-comment-style: italic;
+  --hl-hll: #ffffcc;
+  --hl-comment: #999988;
+  --hl-preproc: #999999;
+  --hl-keyword: #000000;
+  --hl-keyword-ns: #000000;
+  --hl-type: #445588;
+  --hl-operator: #000000;
+  --hl-name: #1a1a19;
+  --hl-builtin: #0086b3;
+  --hl-literal: #d01040;
+  --hl-number: #009999;
+  --hl-string: #d01040;
+  --hl-string-escape: #d01040;
+  --hl-regex: #009926;
+  --hl-symbol: #990073;
+  --hl-attr: #008080;
+  --hl-class: #445588;
+  --hl-constant: #008080;
+  --hl-decorator: #3c5d5d;
+  --hl-entity: #800080;
+  --hl-function: #990000;
+  --hl-namespace: #555555;
+  --hl-tag: #000080;
+  --hl-variable: #008080;
+  --hl-name-other: #1a1a19;
+  --hl-whitespace: #bbbbbb;
+  --hl-err-fg: #a61717;
+  --hl-err-bg: #e3d2d2;
+  --hl-del-fg: #000000;
+  --hl-del-bg: #ffdddd;
+  --hl-ins-fg: #000000;
+  --hl-ins-bg: #ddffdd;
+  --hl-generic: #888888;
+  --hl-generic-heading: #999999;
+  --hl-prompt: #555555;
+}
+
+/* --- Dark palette --------------------------------------------------------
+   Applied when the OS asks for it (unless the reader has explicitly chosen
+   light), and whenever the reader has explicitly chosen dark. The two blocks
+   below are deliberately identical; CSS has no way to share one.
+   ------------------------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #e6e3dd;
+    --ink-muted: #a6a199;
+    --ink-faint: #8a857d;
+    --accent: #7fb3e3;
+    --bg: #161614;
+    --bg-subtle: #201f1c;
+    --rule: #33312d;
+    --star-off: #4f4c45;
+
+    --code-tint: rgba(255, 255, 255, 0.08);
+    --shadow-thumb: 0 1px 3px rgba(0, 0, 0, 0.5);
+    --shadow-cover: 0 2px 8px rgba(0, 0, 0, 0.55);
+    --icon-filter: invert(1);
+
+    --banner-ok-bg: #16261c;
+    --banner-ok-ink: #9fd8b4;
+    --banner-ok-rule: #2c4a37;
+    --banner-bad-bg: #2a1815;
+    --banner-bad-ink: #e8a494;
+    --banner-bad-rule: #55302a;
+
+    /* Syntax — Monokai */
+    --hl-bold: 400;
+    --hl-comment-style: normal;
+    --hl-hll: #2c2b26;
+    --hl-comment: #8a8570;
+    --hl-preproc: #8a8570;
+    --hl-keyword: #66d9ef;
+    --hl-keyword-ns: #f92672;
+    --hl-type: #66d9ef;
+    --hl-operator: #f92672;
+    --hl-name: #f8f8f2;
+    --hl-builtin: #f8f8f2;
+    --hl-literal: #ae81ff;
+    --hl-number: #ae81ff;
+    --hl-string: #e6db74;
+    --hl-string-escape: #ae81ff;
+    --hl-regex: #e6db74;
+    --hl-symbol: #e6db74;
+    --hl-attr: #a6e22e;
+    --hl-class: #a6e22e;
+    --hl-constant: #66d9ef;
+    --hl-decorator: #a6e22e;
+    --hl-entity: #f8f8f2;
+    --hl-function: #a6e22e;
+    --hl-namespace: #f8f8f2;
+    --hl-tag: #f92672;
+    --hl-variable: #f8f8f2;
+    --hl-name-other: #a6e22e;
+    --hl-whitespace: #f8f8f2;
+    --hl-err-fg: #f92672;
+    --hl-err-bg: #2a1015;
+    --hl-del-fg: #f92672;
+    --hl-del-bg: #2a1015;
+    --hl-ins-fg: #a6e22e;
+    --hl-ins-bg: #1b2415;
+    --hl-generic: #a6a199;
+    --hl-generic-heading: #8a8570;
+    --hl-prompt: #a6a199;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ink: #e6e3dd;
+  --ink-muted: #a6a199;
+  --ink-faint: #8a857d;
+  --accent: #7fb3e3;
+  --bg: #161614;
+  --bg-subtle: #201f1c;
+  --rule: #33312d;
+  --star-off: #4f4c45;
+
+  --code-tint: rgba(255, 255, 255, 0.08);
+  --shadow-thumb: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-cover: 0 2px 8px rgba(0, 0, 0, 0.55);
+  --icon-filter: invert(1);
+
+  --banner-ok-bg: #16261c;
+  --banner-ok-ink: #9fd8b4;
+  --banner-ok-rule: #2c4a37;
+  --banner-bad-bg: #2a1815;
+  --banner-bad-ink: #e8a494;
+  --banner-bad-rule: #55302a;
+
+  /* Syntax — Monokai */
+  --hl-bold: 400;
+  --hl-comment-style: normal;
+  --hl-hll: #2c2b26;
+  --hl-comment: #8a8570;
+  --hl-preproc: #8a8570;
+  --hl-keyword: #66d9ef;
+  --hl-keyword-ns: #f92672;
+  --hl-type: #66d9ef;
+  --hl-operator: #f92672;
+  --hl-name: #f8f8f2;
+  --hl-builtin: #f8f8f2;
+  --hl-literal: #ae81ff;
+  --hl-number: #ae81ff;
+  --hl-string: #e6db74;
+  --hl-string-escape: #ae81ff;
+  --hl-regex: #e6db74;
+  --hl-symbol: #e6db74;
+  --hl-attr: #a6e22e;
+  --hl-class: #a6e22e;
+  --hl-constant: #66d9ef;
+  --hl-decorator: #a6e22e;
+  --hl-entity: #f8f8f2;
+  --hl-function: #a6e22e;
+  --hl-namespace: #f8f8f2;
+  --hl-tag: #f92672;
+  --hl-variable: #f8f8f2;
+  --hl-name-other: #a6e22e;
+  --hl-whitespace: #f8f8f2;
+  --hl-err-fg: #f92672;
+  --hl-err-bg: #2a1015;
+  --hl-del-fg: #f92672;
+  --hl-del-bg: #2a1015;
+  --hl-ins-fg: #a6e22e;
+  --hl-ins-bg: #1b2415;
+  --hl-generic: #a6a199;
+  --hl-generic-heading: #8a8570;
+  --hl-prompt: #a6a199;
 }
 
 * {
@@ -147,6 +340,59 @@ hr {
 .menu a:hover {
   color: var(--accent);
   text-decoration: none;
+}
+
+/* --- Theme toggle -------------------------------------------------------- */
+
+.theme-toggle {
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: var(--ink-muted);
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Show whichever glyph names the theme the reader would switch *to*. */
+
+.theme-toggle .icon-dark {
+  display: inline;
+}
+
+.theme-toggle .icon-light {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle .icon-dark {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle .icon-light {
+  display: inline;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-dark {
+    display: none;
+  }
+
+  :root:not([data-theme="light"]) .theme-toggle .icon-light {
+    display: inline;
+  }
 }
 
 /* --- Home ---------------------------------------------------------------- */
@@ -329,7 +575,7 @@ blockquote {
 }
 
 blockquote code {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--code-tint);
 }
 
 blockquote p:last-child {
@@ -552,7 +798,7 @@ pre code {
   height: auto;
   border-radius: 2px;
   background-color: var(--bg-subtle);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
+  box-shadow: var(--shadow-thumb);
 }
 
 .book-thumb-empty {
@@ -600,7 +846,7 @@ pre code {
   font-size: 0.78rem;
   letter-spacing: 0.06em;
   line-height: 1.4;
-  color: var(--rule);
+  color: var(--star-off);
   white-space: nowrap;
 }
 
@@ -639,7 +885,7 @@ pre code {
   width: 150px;
   height: auto;
   border-radius: 2px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: var(--shadow-cover);
 }
 
 .book-card .book-title {
@@ -676,6 +922,7 @@ pre code {
   display: inline-block !important;
   vertical-align: middle;
   opacity: 0.55;
+  filter: var(--icon-filter);
   transition: opacity 0.15s ease;
 }
 
@@ -764,15 +1011,15 @@ pre code {
 }
 
 .comment-info-banner-success {
-  background-color: #edf7f0;
-  color: #1f5133;
-  border: 1px solid #bfe0cb;
+  background-color: var(--banner-ok-bg);
+  color: var(--banner-ok-ink);
+  border: 1px solid var(--banner-ok-rule);
 }
 
 .comment-info-banner-fail {
-  background-color: #fdf0ee;
-  color: #8a2c1c;
-  border: 1px solid #f0cdc5;
+  background-color: var(--banner-bad-bg);
+  color: var(--banner-bad-ink);
+  border: 1px solid var(--banner-bad-rule);
 }
 
 /* --- Footer -------------------------------------------------------------- */
