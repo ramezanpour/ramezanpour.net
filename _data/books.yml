@@ -2,7 +2,11 @@
 # `reading` renders at the top of /books, `read` below it grouped by year.
 # rating: 1-5 (omit if unrated). read: YYYY-MM-DD. cover: path under /assets/images/books/.
 
-reading: []
+reading:
+- title: 'Essentialism: The Disciplined Pursuit of Less'
+  author: Greg McKeown
+  cover: "/assets/images/books/19776547.jpg"
+  link: https://www.goodreads.com/book/show/19776547
 read:
 - title: 'Slow Productivity: The Lost Art of Accomplishment Without Burnout'
   author: Cal Newport
