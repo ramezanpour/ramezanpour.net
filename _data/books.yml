@@ -2,12 +2,20 @@
 # `reading` renders at the top of /books, `read` below it grouped by year.
 # rating: 1-5 (omit if unrated). read: YYYY-MM-DD. cover: path under /assets/images/books/.
 
-reading:
+reading: []
+read:
+- title: 'Slow Productivity: The Lost Art of Accomplishment Without Burnout'
+  author: Cal Newport
+  rating: 3
+  read: '2026-10-16'
+  cover: "/assets/images/books/197773418.jpg"
+  link: https://www.goodreads.com/book/show/197773418
 - title: The Courage to Be Disliked
   author: Ichiro Kishimi
   cover: "/assets/images/books/43306206.jpg"
   link: https://www.goodreads.com/book/show/43306206
-read:
+  read: '2026-09-15'
+  rating: 4
 - title: 'Never Finished: Unshackle Your Mind and Win the War Within'
   author: David Goggins
   rating: 5
@@ -38,17 +46,17 @@ read:
   read: '2025-12-15'
   cover: "/assets/images/books/21319000.jpg"
   link: https://www.goodreads.com/book/show/21319000
+- title: 'Sunrise on the Reaping (The Hunger Games, #0.5)'
+  author: Suzanne Collins
+  read: '2025-12-06'
+  cover: "/assets/images/books/214331246.jpg"
+  link: https://www.goodreads.com/book/show/214331246
 - title: The Death of Ivan Ilych
   author: Leo Tolstoy
   rating: 5
   read: '2025-12-06'
   cover: "/assets/images/books/18386.jpg"
   link: https://www.goodreads.com/book/show/18386
-- title: 'Sunrise on the Reaping (The Hunger Games, #0.5)'
-  author: Suzanne Collins
-  read: '2025-12-06'
-  cover: "/assets/images/books/214331246.jpg"
-  link: https://www.goodreads.com/book/show/214331246
 - title: 'Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals,
     Declutter Your Mind, and Focus on the Present (The Path to Calm Book 1)'
   author: Nick Trenton
@@ -429,12 +437,6 @@ read:
   read: '2019-01-25'
   cover: "/assets/images/books/42737290.jpg"
   link: https://www.goodreads.com/book/show/42737290
-- title: The 7 Worst Things Good Parents Do
-  author: John C. Friel
-  rating: 5
-  read: '2019-01-05'
-  cover: "/assets/images/books/1091465.jpg"
-  link: https://www.goodreads.com/book/show/1091465
 - title: پدر پولدار، پدر بی پول
   author: Robert T. Kiyosaki
   rating: 5
@@ -447,6 +449,12 @@ read:
   read: '2019-01-05'
   cover: "/assets/images/books/654626.jpg"
   link: https://www.goodreads.com/book/show/654626
+- title: The 7 Worst Things Good Parents Do
+  author: John C. Friel
+  rating: 5
+  read: '2019-01-05'
+  cover: "/assets/images/books/1091465.jpg"
+  link: https://www.goodreads.com/book/show/1091465
 - title: Setting Goals (Pocket Mentor)
   author: Harvard Business School Publishing Corporation
   rating: 3
@@ -542,12 +550,6 @@ read:
   read: '2018-02-20'
   cover: "/assets/images/books/3735293.jpg"
   link: https://www.goodreads.com/book/show/3735293
-- title: Primary Colors
-  author: Brent Furnas
-  rating: 2
-  read: '2018-01-01'
-  cover: "/assets/images/books/1181090.jpg"
-  link: https://www.goodreads.com/book/show/1181090
 - title: برنامه نویسی به زبان C++
   author: عین الله جعفر نژاد قمی
   rating: 4
@@ -560,6 +562,12 @@ read:
   read: '2018-01-01'
   cover: "/assets/images/books/1226184.jpg"
   link: https://www.goodreads.com/book/show/1226184
+- title: Primary Colors
+  author: Brent Furnas
+  rating: 2
+  read: '2018-01-01'
+  cover: "/assets/images/books/1181090.jpg"
+  link: https://www.goodreads.com/book/show/1181090
 - title: 'بیشعوری: راهنمای تشخیص و درمان خطرناکترین بیماری تاریخ بشریت'
   author: Xavier Crement
   rating: 1
