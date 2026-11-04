@@ -909,7 +909,6 @@ pre code {
   gap: 0.5rem;
   margin: 3rem 0 0;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--rule);
   font-size: 0.82rem;
   letter-spacing: 0.03em;
   color: var(--ink-faint);
