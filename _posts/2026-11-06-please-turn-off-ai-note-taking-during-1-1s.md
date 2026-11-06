@@ -1,7 +1,7 @@
 ---
 title: Please turn off AI note-taking during 1-1s
 layout: post
-date: 2026-11-07
+date: 2026-11-06
 description:
   "AI note-taking might make meetings more efficient, but it can also prevent people from speaking openly. Here's why
   leaders should think twice before enabling it in 1-1s."
